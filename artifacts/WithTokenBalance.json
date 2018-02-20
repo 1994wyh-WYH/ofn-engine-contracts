@@ -1,0 +1,133 @@
+{
+  "contractName": "WithTokenBalance",
+  "abi": [],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820365299022f4d0aa7a3a403e1b1940f342c48b631fd4aaf1ac711b4cecd6a42ab0029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820365299022f4d0aa7a3a403e1b1940f342c48b631fd4aaf1ac711b4cecd6a42ab0029",
+  "sourceMap": "76:169:12:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "76:169:12:-;;;;;",
+  "source": "/* Add a token balance struct to a contract */\n\n\npragma solidity ^0.4.17;\n\n\ncontract WithTokenBalance {\n\n  // Token balances are dynamic and must include a query time\n  struct TokenBalance {\n      uint256 balance;\n      uint256 queryTime;\n  }\n\n}\n",
+  "sourcePath": "/home/user/ofn-engine/contracts/WithTokenBalance.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/home/user/ofn-engine/contracts/WithTokenBalance.sol",
+      "exportedSymbols": {
+        "WithTokenBalance": [
+          3838
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".17"
+          ]
+        },
+        "id": 3832,
+        "name": "PragmaDirective",
+        "src": "49:24:12"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            3838
+          ],
+          "name": "WithTokenBalance",
+          "scope": 3839
+        },
+        "children": [
+          {
+            "attributes": {
+              "canonicalName": "WithTokenBalance.TokenBalance",
+              "name": "TokenBalance",
+              "scope": 3838,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "balance",
+                  "scope": 3837,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "uint256",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "uint256",
+                      "type": "uint256"
+                    },
+                    "id": 3833,
+                    "name": "ElementaryTypeName",
+                    "src": "197:7:12"
+                  }
+                ],
+                "id": 3834,
+                "name": "VariableDeclaration",
+                "src": "197:15:12"
+              },
+              {
+                "attributes": {
+                  "constant": false,
+                  "name": "queryTime",
+                  "scope": 3837,
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "type": "uint256",
+                  "value": null,
+                  "visibility": "internal"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "uint256",
+                      "type": "uint256"
+                    },
+                    "id": 3835,
+                    "name": "ElementaryTypeName",
+                    "src": "220:7:12"
+                  }
+                ],
+                "id": 3836,
+                "name": "VariableDeclaration",
+                "src": "220:17:12"
+              }
+            ],
+            "id": 3837,
+            "name": "StructDefinition",
+            "src": "169:73:12"
+          }
+        ],
+        "id": 3838,
+        "name": "ContractDefinition",
+        "src": "76:169:12"
+      }
+    ],
+    "id": 3839,
+    "name": "SourceUnit",
+    "src": "49:197:12"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-02-19T23:47:32.802Z"
+}

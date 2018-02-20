@@ -1,0 +1,10 @@
+{
+  "name": "ofn-engine-contracts",
+  "version": "0.9.0",
+  "description": "Compiled OFN contracts",
+  "main": "index.js",
+  "repository": "github.com/cfxmarkets/ofn-engine-contracts",
+  "author": "OFN authors",
+  "license": "MIT",
+  "private": false
+}

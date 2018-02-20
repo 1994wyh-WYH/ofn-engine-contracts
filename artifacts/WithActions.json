@@ -1,0 +1,151 @@
+{
+  "contractName": "WithActions",
+  "abi": [],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820ecce2c5dad82e931163408e24f41a6f81a31087de2dff14cbb441e063276d8b40029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820ecce2c5dad82e931163408e24f41a6f81a31087de2dff14cbb441e063276d8b40029",
+  "sourceMap": "104:361:11:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "104:361:11:-;;;;;",
+  "source": "/* Inherit from this to become aware of the OFN actions and their weights */\n\npragma solidity ^0.4.17;\n\ncontract WithActions {\n\n    // The various types of things network users can do, broadly\n    enum NetworkActivity {\n        AddAsset,\n        UpdateAsset,\n        ManageShareholder,\n        RegisterEntity,\n        ModifyEntity,\n        InitiateTransaction,\n        ReverseTransaction,\n        ApproveTransaction,\n        ApproveTransactionAsParticipant\n    }\n\n}\n",
+  "sourcePath": "/home/user/ofn-engine/contracts/WithActions.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
+      "exportedSymbols": {
+        "WithActions": [
+          3830
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".17"
+          ]
+        },
+        "id": 3819,
+        "name": "PragmaDirective",
+        "src": "78:24:11"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            3830
+          ],
+          "name": "WithActions",
+          "scope": 3831
+        },
+        "children": [
+          {
+            "attributes": {
+              "canonicalName": "WithActions.NetworkActivity",
+              "name": "NetworkActivity"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "AddAsset"
+                },
+                "id": 3820,
+                "name": "EnumValue",
+                "src": "228:8:11"
+              },
+              {
+                "attributes": {
+                  "name": "UpdateAsset"
+                },
+                "id": 3821,
+                "name": "EnumValue",
+                "src": "246:11:11"
+              },
+              {
+                "attributes": {
+                  "name": "ManageShareholder"
+                },
+                "id": 3822,
+                "name": "EnumValue",
+                "src": "267:17:11"
+              },
+              {
+                "attributes": {
+                  "name": "RegisterEntity"
+                },
+                "id": 3823,
+                "name": "EnumValue",
+                "src": "294:14:11"
+              },
+              {
+                "attributes": {
+                  "name": "ModifyEntity"
+                },
+                "id": 3824,
+                "name": "EnumValue",
+                "src": "318:12:11"
+              },
+              {
+                "attributes": {
+                  "name": "InitiateTransaction"
+                },
+                "id": 3825,
+                "name": "EnumValue",
+                "src": "340:19:11"
+              },
+              {
+                "attributes": {
+                  "name": "ReverseTransaction"
+                },
+                "id": 3826,
+                "name": "EnumValue",
+                "src": "369:18:11"
+              },
+              {
+                "attributes": {
+                  "name": "ApproveTransaction"
+                },
+                "id": 3827,
+                "name": "EnumValue",
+                "src": "397:18:11"
+              },
+              {
+                "attributes": {
+                  "name": "ApproveTransactionAsParticipant"
+                },
+                "id": 3828,
+                "name": "EnumValue",
+                "src": "425:31:11"
+              }
+            ],
+            "id": 3829,
+            "name": "EnumDefinition",
+            "src": "197:265:11"
+          }
+        ],
+        "id": 3830,
+        "name": "ContractDefinition",
+        "src": "104:361:11"
+      }
+    ],
+    "id": 3831,
+    "name": "SourceUnit",
+    "src": "78:388:11"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-02-19T23:47:32.802Z"
+}
