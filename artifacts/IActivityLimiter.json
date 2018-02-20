@@ -1,0 +1,187 @@
+{
+  "contractName": "IActivityLimiter",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "activity",
+          "type": "uint8"
+        }
+      ],
+      "name": "performAction",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "/* Interface for the ActivityLimiter */\n\npragma solidity ^0.4.17;\n\n\nimport '../WithActions.sol';\n\ncontract IActivityLimiter is WithActions {\n\n    function performAction(NetworkActivity activity) public;\n\n}\n",
+  "sourcePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
+  "ast": {
+    "attributes": {
+      "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
+      "exportedSymbols": {
+        "IActivityLimiter": [
+          3849
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.4",
+            ".17"
+          ]
+        },
+        "id": 3840,
+        "name": "PragmaDirective",
+        "src": "41:24:13"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 3831,
+          "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
+          "file": "../WithActions.sol",
+          "scope": 3850,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 3841,
+        "name": "ImportDirective",
+        "src": "68:28:13"
+      },
+      {
+        "attributes": {
+          "contractDependencies": [
+            3830
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            3849,
+            3830
+          ],
+          "name": "IActivityLimiter",
+          "scope": 3850
+        },
+        "children": [
+          {
+            "attributes": {
+              "arguments": [
+                null
+              ]
+            },
+            "children": [
+              {
+                "attributes": {
+                  "contractScope": null,
+                  "name": "WithActions",
+                  "referencedDeclaration": 3830,
+                  "type": "contract WithActions"
+                },
+                "id": 3842,
+                "name": "UserDefinedTypeName",
+                "src": "127:11:13"
+              }
+            ],
+            "id": 3843,
+            "name": "InheritanceSpecifier",
+            "src": "127:11:13"
+          },
+          {
+            "attributes": {
+              "body": null,
+              "constant": false,
+              "implemented": false,
+              "isConstructor": false,
+              "modifiers": [
+                null
+              ],
+              "name": "performAction",
+              "payable": false,
+              "scope": 3849,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "name": "activity",
+                      "scope": 3848,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "enum WithActions.NetworkActivity",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "contractScope": null,
+                          "name": "NetworkActivity",
+                          "referencedDeclaration": 3829,
+                          "type": "enum WithActions.NetworkActivity"
+                        },
+                        "id": 3844,
+                        "name": "UserDefinedTypeName",
+                        "src": "169:15:13"
+                      }
+                    ],
+                    "id": 3845,
+                    "name": "VariableDeclaration",
+                    "src": "169:24:13"
+                  }
+                ],
+                "id": 3846,
+                "name": "ParameterList",
+                "src": "168:26:13"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 3847,
+                "name": "ParameterList",
+                "src": "201:0:13"
+              }
+            ],
+            "id": 3848,
+            "name": "FunctionDefinition",
+            "src": "146:56:13"
+          }
+        ],
+        "id": 3849,
+        "name": "ContractDefinition",
+        "src": "98:107:13"
+      }
+    ],
+    "id": 3850,
+    "name": "SourceUnit",
+    "src": "41:165:13"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "1.0.1",
+  "updatedAt": "2018-02-19T23:47:32.802Z"
+}
