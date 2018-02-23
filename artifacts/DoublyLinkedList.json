@@ -96,8 +96,8 @@
   ],
   "bytecode": "0x6060604052341561000f57600080fd5b6104638061001e6000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806302544a391461006757806353af6e8b146100a45780637a4aafe3146100e1578063828cce6d1461011e575b600080fd5b61008a60048080359060200190919080356000191690602001909190505061015f565b604051808215151515815260200191505060405180910390f35b6100c7600480803590602001909190803560001916906020019091905050610197565b604051808215151515815260200191505060405180910390f35b61010460048080359060200190919080356000191690602001909190505061031a565b604051808215151515815260200191505060405180910390f35b61014160048080359060200190919080356000191690602001909190505061040c565b60405180826000191660001916815260200191505060405180910390f35b6000826003016000836000191660001916815260200190815260200160002060020160009054906101000a900460ff16905092915050565b600080836003016000846000191660001916815260200190815260200160002090508060020160009054906101000a900460ff1615156101d657600080fd5b600084600201541115156101e957600080fd5b60018460020154141561021d57600060010284600001816000191690555060006001028460010181600019169055506102d6565b836000015460001916836000191614156102475780600001548460000181600019169055506102d5565b836001015460001916836000191614156102715780600101548460010181600019169055506102d4565b80600101548460030160008360000154600019166000191681526020019081526020016000206001018160001916905550806000015484600301600083600101546000191660001916815260200190815260200160002060000181600019169055505b5b5b8060020160006101000a81549060ff021916905580600001600090558060010160009055836002016000815480929190600190039190505550600191505092915050565b600080836003016000846000191660001916815260200190815260200160002090508060020160009054906101000a900460ff161561035857600080fd5b6000846002015414156103845782846000018160001916905550828460010181600019169055506103d0565b8284600301600086600001546000191660001916815260200190815260200160002060010181600019169055508360000154816000018160001916905550828460000181600019169055505b60018160020160006101000a81548160ff0219169083151502179055508360020160008154809291906001019190505550600191505092915050565b60008260030160008360001916600019168152602001908152602001600020600101549050929150505600a165627a7a723058203521c943ffabeee72b20e7f44830debd206fb510052ac285e6a666e43a7ceb970029",
   "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806302544a391461006757806353af6e8b146100a45780637a4aafe3146100e1578063828cce6d1461011e575b600080fd5b61008a60048080359060200190919080356000191690602001909190505061015f565b604051808215151515815260200191505060405180910390f35b6100c7600480803590602001909190803560001916906020019091905050610197565b604051808215151515815260200191505060405180910390f35b61010460048080359060200190919080356000191690602001909190505061031a565b604051808215151515815260200191505060405180910390f35b61014160048080359060200190919080356000191690602001909190505061040c565b60405180826000191660001916815260200191505060405180910390f35b6000826003016000836000191660001916815260200190815260200160002060020160009054906101000a900460ff16905092915050565b600080836003016000846000191660001916815260200190815260200160002090508060020160009054906101000a900460ff1615156101d657600080fd5b600084600201541115156101e957600080fd5b60018460020154141561021d57600060010284600001816000191690555060006001028460010181600019169055506102d6565b836000015460001916836000191614156102475780600001548460000181600019169055506102d5565b836001015460001916836000191614156102715780600101548460010181600019169055506102d4565b80600101548460030160008360000154600019166000191681526020019081526020016000206001018160001916905550806000015484600301600083600101546000191660001916815260200190815260200160002060000181600019169055505b5b5b8060020160006101000a81549060ff021916905580600001600090558060010160009055836002016000815480929190600190039190505550600191505092915050565b600080836003016000846000191660001916815260200190815260200160002090508060020160009054906101000a900460ff161561035857600080fd5b6000846002015414156103845782846000018160001916905550828460010181600019169055506103d0565b8284600301600086600001546000191660001916815260200190815260200160002060010181600019169055508360000154816000018160001916905550828460000181600019169055505b60018160020160006101000a81548160ff0219169083151502179055508360020160008154809291906001019190505550600191505092915050565b60008260030160008360001916600019168152602001908152602001600020600101549050929150505600a165627a7a723058203521c943ffabeee72b20e7f44830debd206fb510052ac285e6a666e43a7ceb970029",
-  "sourceMap": "27:1784:19:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "27:1784:19:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;430:130;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1074:735;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;566:502;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;294:130;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;430;507:4;530;:13;;:18;544:3;530:18;;;;;;;;;;;;;;;;;:23;;;;;;;;;;;;523:30;;430:130;;;;:::o;1074:735::-;1149:12;1173:20;1196:4;:13;;:18;1210:3;1196:18;;;;;;;;;;;;;;;;;1173:41;;1232:4;:9;;;;;;;;;;;;1224:18;;;;;;;;1272:1;1260:4;:9;;;:13;1252:22;;;;;;;;1302:1;1289:4;:9;;;:14;1285:394;;;1339:1;1331:10;;1319:4;:9;;:22;;;;;;;1375:1;1367:10;;1355:4;:9;;:22;;;;;;;1285:394;;;1405:4;:9;;;1398:16;;;:3;:16;;;;1394:285;;;1442:4;:13;;;1430:4;:9;;:25;;;;;;;1394:285;;;1483:4;:9;;;1476:16;;;:3;:16;;;;1472:207;;;1520:4;:9;;;1508:4;:9;;:21;;;;;;;1472:207;;;1596:4;:9;;;1560:4;:13;;:28;1574:4;:13;;;1560:28;;;;;;;;;;;;;;;;;:33;;:45;;;;;;;1655:4;:13;;;1619:4;:13;;:24;1633:4;:9;;;1619:24;;;;;;;;;;;;;;;;;:33;;:49;;;;;;;1472:207;1394:285;1285:394;1695:4;:9;;;1688:16;;;;;;;;;;;1721:4;:13;;1714:20;;;1751:4;:9;;1744:16;;;1770:4;:9;;;:11;;;;;;;;;;;;;;1798:4;1791:11;;1074:735;;;;;:::o;566:502::-;638:12;662:20;685:4;:13;;:18;699:3;685:18;;;;;;;;;;;;;;;;;662:41;;717:4;:9;;;;;;;;;;;;713:48;;;742:8;;;713:48;788:1;775:4;:9;;;:14;771:223;;;817:3;805:4;:9;;:15;;;;;;;846:3;834:4;:9;;:15;;;;;;;771:223;;;912:3;880:4;:13;;:24;894:4;:9;;;880:24;;;;;;;;;;;;;;;;;:29;;:35;;;;;;;945:4;:9;;;929:4;:13;;:25;;;;;;;980:3;968:4;:9;;:15;;;;;;;771:223;1015:4;1003;:9;;;:16;;;;;;;;;;;;;;;;;;1029:4;:9;;;:11;;;;;;;;;;;;;1057:4;1050:11;;566:502;;;;;:::o;294:130::-;368:7;394:4;:13;;:18;408:3;394:18;;;;;;;;;;;;;;;;;:23;;;387:30;;294:130;;;;:::o",
+  "sourceMap": "27:1784:13:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "27:1784:13:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;430:130;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1074:735;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;566:502;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;294:130;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;430;507:4;530;:13;;:18;544:3;530:18;;;;;;;;;;;;;;;;;:23;;;;;;;;;;;;523:30;;430:130;;;;:::o;1074:735::-;1149:12;1173:20;1196:4;:13;;:18;1210:3;1196:18;;;;;;;;;;;;;;;;;1173:41;;1232:4;:9;;;;;;;;;;;;1224:18;;;;;;;;1272:1;1260:4;:9;;;:13;1252:22;;;;;;;;1302:1;1289:4;:9;;;:14;1285:394;;;1339:1;1331:10;;1319:4;:9;;:22;;;;;;;1375:1;1367:10;;1355:4;:9;;:22;;;;;;;1285:394;;;1405:4;:9;;;1398:16;;;:3;:16;;;;1394:285;;;1442:4;:13;;;1430:4;:9;;:25;;;;;;;1394:285;;;1483:4;:9;;;1476:16;;;:3;:16;;;;1472:207;;;1520:4;:9;;;1508:4;:9;;:21;;;;;;;1472:207;;;1596:4;:9;;;1560:4;:13;;:28;1574:4;:13;;;1560:28;;;;;;;;;;;;;;;;;:33;;:45;;;;;;;1655:4;:13;;;1619:4;:13;;:24;1633:4;:9;;;1619:24;;;;;;;;;;;;;;;;;:33;;:49;;;;;;;1472:207;1394:285;1285:394;1695:4;:9;;;1688:16;;;;;;;;;;;1721:4;:13;;1714:20;;;1751:4;:9;;1744:16;;;1770:4;:9;;;:11;;;;;;;;;;;;;;1798:4;1791:11;;1074:735;;;;;:::o;566:502::-;638:12;662:20;685:4;:13;;:18;699:3;685:18;;;;;;;;;;;;;;;;;662:41;;717:4;:9;;;;;;;;;;;;713:48;;;742:8;;;713:48;788:1;775:4;:9;;;:14;771:223;;;817:3;805:4;:9;;:15;;;;;;;846:3;834:4;:9;;:15;;;;;;;771:223;;;912:3;880:4;:13;;:24;894:4;:9;;;880:24;;;;;;;;;;;;;;;;;:29;;:35;;;;;;;945:4;:9;;;929:4;:13;;:25;;;;;;;980:3;968:4;:9;;:15;;;;;;;771:223;1015:4;1003;:9;;;:16;;;;;;;;;;;;;;;;;;1029:4;:9;;;:11;;;;;;;;;;;;;1057:4;1050:11;;566:502;;;;;:::o;294:130::-;368:7;394:4;:13;;:18;408:3;394:18;;;;;;;;;;;;;;;;;:23;;;387:30;;294:130;;;;:::o",
   "source": "pragma solidity ^0.4.13;\n\n\nlibrary DoublyLinkedList {\n    struct Elements {\n        bytes32 head;\n        bytes32 tail;\n        uint256 size;\n        mapping(bytes32 => Element) elements;\n    }\n\n    struct Element {\n        bytes32 previous;\n        bytes32 next;\n        bool data;\n    }\n\n    function getNext(Elements storage self, bytes32 key) public view returns (bytes32) {\n        return self.elements[key].next;\n    }\n\n    function getElement(Elements storage self, bytes32 key) public view returns (bool) {\n        return self.elements[key].data;\n    }\n\n    function addElement(Elements storage self, bytes32 key) public returns (bool success) {\n        Element storage elem = self.elements[key];\n        if (elem.data) {\n            revert();\n        }\n\n        if (self.size == 0) {\n            self.head = key;\n            self.tail = key;\n        } else {\n            self.elements[self.head].next = key;\n            elem.previous = self.head;\n            self.head = key;\n        }\n        elem.data = true;\n        self.size++;\n        return true;\n    }\n\n    function removeElement(Elements storage self, bytes32 key) public returns (bool success) {\n        Element storage elem = self.elements[key];\n        require(elem.data);\n        require(self.size > 0);\n\n        if (self.size == 1) {\n            self.head = bytes32(0);\n            self.tail = bytes32(0);\n        } else if (key == self.head) {\n            self.head = elem.previous;\n        } else if (key == self.tail) {\n            self.tail = elem.next;\n        } else {\n            self.elements[elem.previous].next = elem.next;\n            self.elements[elem.next].previous = elem.previous;\n        }\n        delete elem.data;\n        delete elem.previous;\n        delete elem.next;\n        self.size--;\n        return true;\n    }\n}",
   "sourcePath": "/home/user/ofn-engine/contracts/libraries/DoublyLinkedList.sol",
   "ast": {
@@ -105,7 +105,7 @@
       "absolutePath": "/home/user/ofn-engine/contracts/libraries/DoublyLinkedList.sol",
       "exportedSymbols": {
         "DoublyLinkedList": [
-          4262
+          2426
         ]
       }
     },
@@ -119,9 +119,9 @@
             ".13"
           ]
         },
-        "id": 4013,
+        "id": 2177,
         "name": "PragmaDirective",
-        "src": "0:24:19"
+        "src": "0:24:13"
       },
       {
         "attributes": {
@@ -135,17 +135,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            4262
+            2426
           ],
           "name": "DoublyLinkedList",
-          "scope": 4263
+          "scope": 2427
         },
         "children": [
           {
             "attributes": {
               "canonicalName": "DoublyLinkedList.Elements",
               "name": "Elements",
-              "scope": 4262,
+              "scope": 2426,
               "visibility": "public"
             },
             "children": [
@@ -153,7 +153,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "head",
-                  "scope": 4024,
+                  "scope": 2188,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bytes32",
@@ -166,20 +166,20 @@
                       "name": "bytes32",
                       "type": "bytes32"
                     },
-                    "id": 4014,
+                    "id": 2178,
                     "name": "ElementaryTypeName",
-                    "src": "84:7:19"
+                    "src": "84:7:13"
                   }
                 ],
-                "id": 4015,
+                "id": 2179,
                 "name": "VariableDeclaration",
-                "src": "84:12:19"
+                "src": "84:12:13"
               },
               {
                 "attributes": {
                   "constant": false,
                   "name": "tail",
-                  "scope": 4024,
+                  "scope": 2188,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bytes32",
@@ -192,20 +192,20 @@
                       "name": "bytes32",
                       "type": "bytes32"
                     },
-                    "id": 4016,
+                    "id": 2180,
                     "name": "ElementaryTypeName",
-                    "src": "106:7:19"
+                    "src": "106:7:13"
                   }
                 ],
-                "id": 4017,
+                "id": 2181,
                 "name": "VariableDeclaration",
-                "src": "106:12:19"
+                "src": "106:12:13"
               },
               {
                 "attributes": {
                   "constant": false,
                   "name": "size",
-                  "scope": 4024,
+                  "scope": 2188,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "uint256",
@@ -218,20 +218,20 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 4018,
+                    "id": 2182,
                     "name": "ElementaryTypeName",
-                    "src": "128:7:19"
+                    "src": "128:7:13"
                   }
                 ],
-                "id": 4019,
+                "id": 2183,
                 "name": "VariableDeclaration",
-                "src": "128:12:19"
+                "src": "128:12:13"
               },
               {
                 "attributes": {
                   "constant": false,
                   "name": "elements",
-                  "scope": 4024,
+                  "scope": 2188,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "mapping(bytes32 => struct DoublyLinkedList.Element storage ref)",
@@ -249,41 +249,41 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 4020,
+                        "id": 2184,
                         "name": "ElementaryTypeName",
-                        "src": "158:7:19"
+                        "src": "158:7:13"
                       },
                       {
                         "attributes": {
                           "contractScope": null,
                           "name": "Element",
-                          "referencedDeclaration": 4031,
+                          "referencedDeclaration": 2195,
                           "type": "struct DoublyLinkedList.Element storage pointer"
                         },
-                        "id": 4021,
+                        "id": 2185,
                         "name": "UserDefinedTypeName",
-                        "src": "169:7:19"
+                        "src": "169:7:13"
                       }
                     ],
-                    "id": 4022,
+                    "id": 2186,
                     "name": "Mapping",
-                    "src": "150:27:19"
+                    "src": "150:27:13"
                   }
                 ],
-                "id": 4023,
+                "id": 2187,
                 "name": "VariableDeclaration",
-                "src": "150:36:19"
+                "src": "150:36:13"
               }
             ],
-            "id": 4024,
+            "id": 2188,
             "name": "StructDefinition",
-            "src": "58:135:19"
+            "src": "58:135:13"
           },
           {
             "attributes": {
               "canonicalName": "DoublyLinkedList.Element",
               "name": "Element",
-              "scope": 4262,
+              "scope": 2426,
               "visibility": "public"
             },
             "children": [
@@ -291,7 +291,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "previous",
-                  "scope": 4031,
+                  "scope": 2195,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bytes32",
@@ -304,20 +304,20 @@
                       "name": "bytes32",
                       "type": "bytes32"
                     },
-                    "id": 4025,
+                    "id": 2189,
                     "name": "ElementaryTypeName",
-                    "src": "224:7:19"
+                    "src": "224:7:13"
                   }
                 ],
-                "id": 4026,
+                "id": 2190,
                 "name": "VariableDeclaration",
-                "src": "224:16:19"
+                "src": "224:16:13"
               },
               {
                 "attributes": {
                   "constant": false,
                   "name": "next",
-                  "scope": 4031,
+                  "scope": 2195,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bytes32",
@@ -330,20 +330,20 @@
                       "name": "bytes32",
                       "type": "bytes32"
                     },
-                    "id": 4027,
+                    "id": 2191,
                     "name": "ElementaryTypeName",
-                    "src": "250:7:19"
+                    "src": "250:7:13"
                   }
                 ],
-                "id": 4028,
+                "id": 2192,
                 "name": "VariableDeclaration",
-                "src": "250:12:19"
+                "src": "250:12:13"
               },
               {
                 "attributes": {
                   "constant": false,
                   "name": "data",
-                  "scope": 4031,
+                  "scope": 2195,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "bool",
@@ -356,19 +356,19 @@
                       "name": "bool",
                       "type": "bool"
                     },
-                    "id": 4029,
+                    "id": 2193,
                     "name": "ElementaryTypeName",
-                    "src": "272:4:19"
+                    "src": "272:4:13"
                   }
                 ],
-                "id": 4030,
+                "id": 2194,
                 "name": "VariableDeclaration",
-                "src": "272:9:19"
+                "src": "272:9:13"
               }
             ],
-            "id": 4031,
+            "id": 2195,
             "name": "StructDefinition",
-            "src": "199:89:19"
+            "src": "199:89:13"
           },
           {
             "attributes": {
@@ -380,7 +380,7 @@
               ],
               "name": "getNext",
               "payable": false,
-              "scope": 4262,
+              "scope": 2426,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -392,7 +392,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "self",
-                      "scope": 4047,
+                      "scope": 2211,
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "type": "struct DoublyLinkedList.Elements storage pointer",
@@ -404,23 +404,23 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "Elements",
-                          "referencedDeclaration": 4024,
+                          "referencedDeclaration": 2188,
                           "type": "struct DoublyLinkedList.Elements storage pointer"
                         },
-                        "id": 4032,
+                        "id": 2196,
                         "name": "UserDefinedTypeName",
-                        "src": "311:8:19"
+                        "src": "311:8:13"
                       }
                     ],
-                    "id": 4033,
+                    "id": 2197,
                     "name": "VariableDeclaration",
-                    "src": "311:21:19"
+                    "src": "311:21:13"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "key",
-                      "scope": 4047,
+                      "scope": 2211,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -433,19 +433,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 4034,
+                        "id": 2198,
                         "name": "ElementaryTypeName",
-                        "src": "334:7:19"
+                        "src": "334:7:13"
                       }
                     ],
-                    "id": 4035,
+                    "id": 2199,
                     "name": "VariableDeclaration",
-                    "src": "334:11:19"
+                    "src": "334:11:13"
                   }
                 ],
-                "id": 4036,
+                "id": 2200,
                 "name": "ParameterList",
-                "src": "310:36:19"
+                "src": "310:36:13"
               },
               {
                 "children": [
@@ -453,7 +453,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 4047,
+                      "scope": 2211,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -466,25 +466,25 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 4037,
+                        "id": 2201,
                         "name": "ElementaryTypeName",
-                        "src": "368:7:19"
+                        "src": "368:7:13"
                       }
                     ],
-                    "id": 4038,
+                    "id": 2202,
                     "name": "VariableDeclaration",
-                    "src": "368:7:19"
+                    "src": "368:7:13"
                   }
                 ],
-                "id": 4039,
+                "id": 2203,
                 "name": "ParameterList",
-                "src": "367:9:19"
+                "src": "367:9:13"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 4039
+                      "functionReturnParameters": 2203
                     },
                     "children": [
                       {
@@ -495,7 +495,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "member_name": "next",
-                          "referencedDeclaration": 4028,
+                          "referencedDeclaration": 2192,
                           "type": "bytes32"
                         },
                         "children": [
@@ -517,7 +517,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "elements",
-                                  "referencedDeclaration": 4023,
+                                  "referencedDeclaration": 2187,
                                   "type": "mapping(bytes32 => struct DoublyLinkedList.Element storage ref)"
                                 },
                                 "children": [
@@ -527,18 +527,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4033,
+                                      "referencedDeclaration": 2197,
                                       "type": "struct DoublyLinkedList.Elements storage pointer",
                                       "value": "self"
                                     },
-                                    "id": 4040,
+                                    "id": 2204,
                                     "name": "Identifier",
-                                    "src": "394:4:19"
+                                    "src": "394:4:13"
                                   }
                                 ],
-                                "id": 4041,
+                                "id": 2205,
                                 "name": "MemberAccess",
-                                "src": "394:13:19"
+                                "src": "394:13:13"
                               },
                               {
                                 "attributes": {
@@ -546,38 +546,38 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4035,
+                                  "referencedDeclaration": 2199,
                                   "type": "bytes32",
                                   "value": "key"
                                 },
-                                "id": 4042,
+                                "id": 2206,
                                 "name": "Identifier",
-                                "src": "408:3:19"
+                                "src": "408:3:13"
                               }
                             ],
-                            "id": 4043,
+                            "id": 2207,
                             "name": "IndexAccess",
-                            "src": "394:18:19"
+                            "src": "394:18:13"
                           }
                         ],
-                        "id": 4044,
+                        "id": 2208,
                         "name": "MemberAccess",
-                        "src": "394:23:19"
+                        "src": "394:23:13"
                       }
                     ],
-                    "id": 4045,
+                    "id": 2209,
                     "name": "Return",
-                    "src": "387:30:19"
+                    "src": "387:30:13"
                   }
                 ],
-                "id": 4046,
+                "id": 2210,
                 "name": "Block",
-                "src": "377:47:19"
+                "src": "377:47:13"
               }
             ],
-            "id": 4047,
+            "id": 2211,
             "name": "FunctionDefinition",
-            "src": "294:130:19"
+            "src": "294:130:13"
           },
           {
             "attributes": {
@@ -589,7 +589,7 @@
               ],
               "name": "getElement",
               "payable": false,
-              "scope": 4262,
+              "scope": 2426,
               "stateMutability": "view",
               "superFunction": null,
               "visibility": "public"
@@ -601,7 +601,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "self",
-                      "scope": 4063,
+                      "scope": 2227,
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "type": "struct DoublyLinkedList.Elements storage pointer",
@@ -613,23 +613,23 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "Elements",
-                          "referencedDeclaration": 4024,
+                          "referencedDeclaration": 2188,
                           "type": "struct DoublyLinkedList.Elements storage pointer"
                         },
-                        "id": 4048,
+                        "id": 2212,
                         "name": "UserDefinedTypeName",
-                        "src": "450:8:19"
+                        "src": "450:8:13"
                       }
                     ],
-                    "id": 4049,
+                    "id": 2213,
                     "name": "VariableDeclaration",
-                    "src": "450:21:19"
+                    "src": "450:21:13"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "key",
-                      "scope": 4063,
+                      "scope": 2227,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -642,19 +642,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 4050,
+                        "id": 2214,
                         "name": "ElementaryTypeName",
-                        "src": "473:7:19"
+                        "src": "473:7:13"
                       }
                     ],
-                    "id": 4051,
+                    "id": 2215,
                     "name": "VariableDeclaration",
-                    "src": "473:11:19"
+                    "src": "473:11:13"
                   }
                 ],
-                "id": 4052,
+                "id": 2216,
                 "name": "ParameterList",
-                "src": "449:36:19"
+                "src": "449:36:13"
               },
               {
                 "children": [
@@ -662,7 +662,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 4063,
+                      "scope": 2227,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -675,25 +675,25 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 4053,
+                        "id": 2217,
                         "name": "ElementaryTypeName",
-                        "src": "507:4:19"
+                        "src": "507:4:13"
                       }
                     ],
-                    "id": 4054,
+                    "id": 2218,
                     "name": "VariableDeclaration",
-                    "src": "507:4:19"
+                    "src": "507:4:13"
                   }
                 ],
-                "id": 4055,
+                "id": 2219,
                 "name": "ParameterList",
-                "src": "506:6:19"
+                "src": "506:6:13"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 4055
+                      "functionReturnParameters": 2219
                     },
                     "children": [
                       {
@@ -704,7 +704,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "member_name": "data",
-                          "referencedDeclaration": 4030,
+                          "referencedDeclaration": 2194,
                           "type": "bool"
                         },
                         "children": [
@@ -726,7 +726,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "elements",
-                                  "referencedDeclaration": 4023,
+                                  "referencedDeclaration": 2187,
                                   "type": "mapping(bytes32 => struct DoublyLinkedList.Element storage ref)"
                                 },
                                 "children": [
@@ -736,18 +736,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4049,
+                                      "referencedDeclaration": 2213,
                                       "type": "struct DoublyLinkedList.Elements storage pointer",
                                       "value": "self"
                                     },
-                                    "id": 4056,
+                                    "id": 2220,
                                     "name": "Identifier",
-                                    "src": "530:4:19"
+                                    "src": "530:4:13"
                                   }
                                 ],
-                                "id": 4057,
+                                "id": 2221,
                                 "name": "MemberAccess",
-                                "src": "530:13:19"
+                                "src": "530:13:13"
                               },
                               {
                                 "attributes": {
@@ -755,38 +755,38 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4051,
+                                  "referencedDeclaration": 2215,
                                   "type": "bytes32",
                                   "value": "key"
                                 },
-                                "id": 4058,
+                                "id": 2222,
                                 "name": "Identifier",
-                                "src": "544:3:19"
+                                "src": "544:3:13"
                               }
                             ],
-                            "id": 4059,
+                            "id": 2223,
                             "name": "IndexAccess",
-                            "src": "530:18:19"
+                            "src": "530:18:13"
                           }
                         ],
-                        "id": 4060,
+                        "id": 2224,
                         "name": "MemberAccess",
-                        "src": "530:23:19"
+                        "src": "530:23:13"
                       }
                     ],
-                    "id": 4061,
+                    "id": 2225,
                     "name": "Return",
-                    "src": "523:30:19"
+                    "src": "523:30:13"
                   }
                 ],
-                "id": 4062,
+                "id": 2226,
                 "name": "Block",
-                "src": "513:47:19"
+                "src": "513:47:13"
               }
             ],
-            "id": 4063,
+            "id": 2227,
             "name": "FunctionDefinition",
-            "src": "430:130:19"
+            "src": "430:130:13"
           },
           {
             "attributes": {
@@ -798,7 +798,7 @@
               ],
               "name": "addElement",
               "payable": false,
-              "scope": 4262,
+              "scope": 2426,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -810,7 +810,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "self",
-                      "scope": 4142,
+                      "scope": 2306,
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "type": "struct DoublyLinkedList.Elements storage pointer",
@@ -822,23 +822,23 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "Elements",
-                          "referencedDeclaration": 4024,
+                          "referencedDeclaration": 2188,
                           "type": "struct DoublyLinkedList.Elements storage pointer"
                         },
-                        "id": 4064,
+                        "id": 2228,
                         "name": "UserDefinedTypeName",
-                        "src": "586:8:19"
+                        "src": "586:8:13"
                       }
                     ],
-                    "id": 4065,
+                    "id": 2229,
                     "name": "VariableDeclaration",
-                    "src": "586:21:19"
+                    "src": "586:21:13"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "key",
-                      "scope": 4142,
+                      "scope": 2306,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -851,19 +851,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 4066,
+                        "id": 2230,
                         "name": "ElementaryTypeName",
-                        "src": "609:7:19"
+                        "src": "609:7:13"
                       }
                     ],
-                    "id": 4067,
+                    "id": 2231,
                     "name": "VariableDeclaration",
-                    "src": "609:11:19"
+                    "src": "609:11:13"
                   }
                 ],
-                "id": 4068,
+                "id": 2232,
                 "name": "ParameterList",
-                "src": "585:36:19"
+                "src": "585:36:13"
               },
               {
                 "children": [
@@ -871,7 +871,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "success",
-                      "scope": 4142,
+                      "scope": 2306,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -884,26 +884,26 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 4069,
+                        "id": 2233,
                         "name": "ElementaryTypeName",
-                        "src": "638:4:19"
+                        "src": "638:4:13"
                       }
                     ],
-                    "id": 4070,
+                    "id": 2234,
                     "name": "VariableDeclaration",
-                    "src": "638:12:19"
+                    "src": "638:12:13"
                   }
                 ],
-                "id": 4071,
+                "id": 2235,
                 "name": "ParameterList",
-                "src": "637:14:19"
+                "src": "637:14:13"
               },
               {
                 "children": [
                   {
                     "attributes": {
                       "assignments": [
-                        4073
+                        2237
                       ]
                     },
                     "children": [
@@ -911,7 +911,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "elem",
-                          "scope": 4142,
+                          "scope": 2306,
                           "stateVariable": false,
                           "storageLocation": "storage",
                           "type": "struct DoublyLinkedList.Element storage pointer",
@@ -923,17 +923,17 @@
                             "attributes": {
                               "contractScope": null,
                               "name": "Element",
-                              "referencedDeclaration": 4031,
+                              "referencedDeclaration": 2195,
                               "type": "struct DoublyLinkedList.Element storage pointer"
                             },
-                            "id": 4072,
+                            "id": 2236,
                             "name": "UserDefinedTypeName",
-                            "src": "662:7:19"
+                            "src": "662:7:13"
                           }
                         ],
-                        "id": 4073,
+                        "id": 2237,
                         "name": "VariableDeclaration",
-                        "src": "662:20:19"
+                        "src": "662:20:13"
                       },
                       {
                         "attributes": {
@@ -953,7 +953,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "elements",
-                              "referencedDeclaration": 4023,
+                              "referencedDeclaration": 2187,
                               "type": "mapping(bytes32 => struct DoublyLinkedList.Element storage ref)"
                             },
                             "children": [
@@ -963,18 +963,18 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4065,
+                                  "referencedDeclaration": 2229,
                                   "type": "struct DoublyLinkedList.Elements storage pointer",
                                   "value": "self"
                                 },
-                                "id": 4074,
+                                "id": 2238,
                                 "name": "Identifier",
-                                "src": "685:4:19"
+                                "src": "685:4:13"
                               }
                             ],
-                            "id": 4075,
+                            "id": 2239,
                             "name": "MemberAccess",
-                            "src": "685:13:19"
+                            "src": "685:13:13"
                           },
                           {
                             "attributes": {
@@ -982,23 +982,23 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 4067,
+                              "referencedDeclaration": 2231,
                               "type": "bytes32",
                               "value": "key"
                             },
-                            "id": 4076,
+                            "id": 2240,
                             "name": "Identifier",
-                            "src": "699:3:19"
+                            "src": "699:3:13"
                           }
                         ],
-                        "id": 4077,
+                        "id": 2241,
                         "name": "IndexAccess",
-                        "src": "685:18:19"
+                        "src": "685:18:13"
                       }
                     ],
-                    "id": 4078,
+                    "id": 2242,
                     "name": "VariableDeclarationStatement",
-                    "src": "662:41:19"
+                    "src": "662:41:13"
                   },
                   {
                     "attributes": {
@@ -1013,7 +1013,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "member_name": "data",
-                          "referencedDeclaration": 4030,
+                          "referencedDeclaration": 2194,
                           "type": "bool"
                         },
                         "children": [
@@ -1023,18 +1023,18 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 4073,
+                              "referencedDeclaration": 2237,
                               "type": "struct DoublyLinkedList.Element storage pointer",
                               "value": "elem"
                             },
-                            "id": 4079,
+                            "id": 2243,
                             "name": "Identifier",
-                            "src": "717:4:19"
+                            "src": "717:4:13"
                           }
                         ],
-                        "id": 4080,
+                        "id": 2244,
                         "name": "MemberAccess",
-                        "src": "717:9:19"
+                        "src": "717:9:13"
                       },
                       {
                         "children": [
@@ -1066,33 +1066,33 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4447,
+                                      "referencedDeclaration": 2611,
                                       "type": "function () pure",
                                       "value": "revert"
                                     },
-                                    "id": 4081,
+                                    "id": 2245,
                                     "name": "Identifier",
-                                    "src": "742:6:19"
+                                    "src": "742:6:13"
                                   }
                                 ],
-                                "id": 4082,
+                                "id": 2246,
                                 "name": "FunctionCall",
-                                "src": "742:8:19"
+                                "src": "742:8:13"
                               }
                             ],
-                            "id": 4083,
+                            "id": 2247,
                             "name": "ExpressionStatement",
-                            "src": "742:8:19"
+                            "src": "742:8:13"
                           }
                         ],
-                        "id": 4084,
+                        "id": 2248,
                         "name": "Block",
-                        "src": "728:33:19"
+                        "src": "728:33:13"
                       }
                     ],
-                    "id": 4085,
+                    "id": 2249,
                     "name": "IfStatement",
-                    "src": "713:48:19"
+                    "src": "713:48:13"
                   },
                   {
                     "children": [
@@ -1119,7 +1119,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "size",
-                              "referencedDeclaration": 4019,
+                              "referencedDeclaration": 2183,
                               "type": "uint256"
                             },
                             "children": [
@@ -1129,18 +1129,18 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4065,
+                                  "referencedDeclaration": 2229,
                                   "type": "struct DoublyLinkedList.Elements storage pointer",
                                   "value": "self"
                                 },
-                                "id": 4086,
+                                "id": 2250,
                                 "name": "Identifier",
-                                "src": "775:4:19"
+                                "src": "775:4:13"
                               }
                             ],
-                            "id": 4087,
+                            "id": 2251,
                             "name": "MemberAccess",
-                            "src": "775:9:19"
+                            "src": "775:9:13"
                           },
                           {
                             "attributes": {
@@ -1155,14 +1155,14 @@
                               "type": "int_const 0",
                               "value": "0"
                             },
-                            "id": 4088,
+                            "id": 2252,
                             "name": "Literal",
-                            "src": "788:1:19"
+                            "src": "788:1:13"
                           }
                         ],
-                        "id": 4089,
+                        "id": 2253,
                         "name": "BinaryOperation",
-                        "src": "775:14:19"
+                        "src": "775:14:13"
                       },
                       {
                         "children": [
@@ -1187,7 +1187,7 @@
                                       "isPure": false,
                                       "lValueRequested": true,
                                       "member_name": "head",
-                                      "referencedDeclaration": 4015,
+                                      "referencedDeclaration": 2179,
                                       "type": "bytes32"
                                     },
                                     "children": [
@@ -1197,18 +1197,18 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4065,
+                                          "referencedDeclaration": 2229,
                                           "type": "struct DoublyLinkedList.Elements storage pointer",
                                           "value": "self"
                                         },
-                                        "id": 4090,
+                                        "id": 2254,
                                         "name": "Identifier",
-                                        "src": "805:4:19"
+                                        "src": "805:4:13"
                                       }
                                     ],
-                                    "id": 4092,
+                                    "id": 2256,
                                     "name": "MemberAccess",
-                                    "src": "805:9:19"
+                                    "src": "805:9:13"
                                   },
                                   {
                                     "attributes": {
@@ -1216,23 +1216,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4067,
+                                      "referencedDeclaration": 2231,
                                       "type": "bytes32",
                                       "value": "key"
                                     },
-                                    "id": 4093,
+                                    "id": 2257,
                                     "name": "Identifier",
-                                    "src": "817:3:19"
+                                    "src": "817:3:13"
                                   }
                                 ],
-                                "id": 4094,
+                                "id": 2258,
                                 "name": "Assignment",
-                                "src": "805:15:19"
+                                "src": "805:15:13"
                               }
                             ],
-                            "id": 4095,
+                            "id": 2259,
                             "name": "ExpressionStatement",
-                            "src": "805:15:19"
+                            "src": "805:15:13"
                           },
                           {
                             "children": [
@@ -1255,7 +1255,7 @@
                                       "isPure": false,
                                       "lValueRequested": true,
                                       "member_name": "tail",
-                                      "referencedDeclaration": 4017,
+                                      "referencedDeclaration": 2181,
                                       "type": "bytes32"
                                     },
                                     "children": [
@@ -1265,18 +1265,18 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4065,
+                                          "referencedDeclaration": 2229,
                                           "type": "struct DoublyLinkedList.Elements storage pointer",
                                           "value": "self"
                                         },
-                                        "id": 4096,
+                                        "id": 2260,
                                         "name": "Identifier",
-                                        "src": "834:4:19"
+                                        "src": "834:4:13"
                                       }
                                     ],
-                                    "id": 4098,
+                                    "id": 2262,
                                     "name": "MemberAccess",
-                                    "src": "834:9:19"
+                                    "src": "834:9:13"
                                   },
                                   {
                                     "attributes": {
@@ -1284,28 +1284,28 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4067,
+                                      "referencedDeclaration": 2231,
                                       "type": "bytes32",
                                       "value": "key"
                                     },
-                                    "id": 4099,
+                                    "id": 2263,
                                     "name": "Identifier",
-                                    "src": "846:3:19"
+                                    "src": "846:3:13"
                                   }
                                 ],
-                                "id": 4100,
+                                "id": 2264,
                                 "name": "Assignment",
-                                "src": "834:15:19"
+                                "src": "834:15:13"
                               }
                             ],
-                            "id": 4101,
+                            "id": 2265,
                             "name": "ExpressionStatement",
-                            "src": "834:15:19"
+                            "src": "834:15:13"
                           }
                         ],
-                        "id": 4102,
+                        "id": 2266,
                         "name": "Block",
-                        "src": "791:69:19"
+                        "src": "791:69:13"
                       },
                       {
                         "children": [
@@ -1330,7 +1330,7 @@
                                       "isPure": false,
                                       "lValueRequested": true,
                                       "member_name": "next",
-                                      "referencedDeclaration": 4028,
+                                      "referencedDeclaration": 2192,
                                       "type": "bytes32"
                                     },
                                     "children": [
@@ -1352,7 +1352,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "elements",
-                                              "referencedDeclaration": 4023,
+                                              "referencedDeclaration": 2187,
                                               "type": "mapping(bytes32 => struct DoublyLinkedList.Element storage ref)"
                                             },
                                             "children": [
@@ -1362,18 +1362,18 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 4065,
+                                                  "referencedDeclaration": 2229,
                                                   "type": "struct DoublyLinkedList.Elements storage pointer",
                                                   "value": "self"
                                                 },
-                                                "id": 4103,
+                                                "id": 2267,
                                                 "name": "Identifier",
-                                                "src": "880:4:19"
+                                                "src": "880:4:13"
                                               }
                                             ],
-                                            "id": 4107,
+                                            "id": 2271,
                                             "name": "MemberAccess",
-                                            "src": "880:13:19"
+                                            "src": "880:13:13"
                                           },
                                           {
                                             "attributes": {
@@ -1383,7 +1383,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "head",
-                                              "referencedDeclaration": 4015,
+                                              "referencedDeclaration": 2179,
                                               "type": "bytes32"
                                             },
                                             "children": [
@@ -1393,28 +1393,28 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 4065,
+                                                  "referencedDeclaration": 2229,
                                                   "type": "struct DoublyLinkedList.Elements storage pointer",
                                                   "value": "self"
                                                 },
-                                                "id": 4105,
+                                                "id": 2269,
                                                 "name": "Identifier",
-                                                "src": "894:4:19"
+                                                "src": "894:4:13"
                                               }
                                             ],
-                                            "id": 4106,
+                                            "id": 2270,
                                             "name": "MemberAccess",
-                                            "src": "894:9:19"
+                                            "src": "894:9:13"
                                           }
                                         ],
-                                        "id": 4108,
+                                        "id": 2272,
                                         "name": "IndexAccess",
-                                        "src": "880:24:19"
+                                        "src": "880:24:13"
                                       }
                                     ],
-                                    "id": 4109,
+                                    "id": 2273,
                                     "name": "MemberAccess",
-                                    "src": "880:29:19"
+                                    "src": "880:29:13"
                                   },
                                   {
                                     "attributes": {
@@ -1422,23 +1422,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4067,
+                                      "referencedDeclaration": 2231,
                                       "type": "bytes32",
                                       "value": "key"
                                     },
-                                    "id": 4110,
+                                    "id": 2274,
                                     "name": "Identifier",
-                                    "src": "912:3:19"
+                                    "src": "912:3:13"
                                   }
                                 ],
-                                "id": 4111,
+                                "id": 2275,
                                 "name": "Assignment",
-                                "src": "880:35:19"
+                                "src": "880:35:13"
                               }
                             ],
-                            "id": 4112,
+                            "id": 2276,
                             "name": "ExpressionStatement",
-                            "src": "880:35:19"
+                            "src": "880:35:13"
                           },
                           {
                             "children": [
@@ -1461,7 +1461,7 @@
                                       "isPure": false,
                                       "lValueRequested": true,
                                       "member_name": "previous",
-                                      "referencedDeclaration": 4026,
+                                      "referencedDeclaration": 2190,
                                       "type": "bytes32"
                                     },
                                     "children": [
@@ -1471,18 +1471,18 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4073,
+                                          "referencedDeclaration": 2237,
                                           "type": "struct DoublyLinkedList.Element storage pointer",
                                           "value": "elem"
                                         },
-                                        "id": 4113,
+                                        "id": 2277,
                                         "name": "Identifier",
-                                        "src": "929:4:19"
+                                        "src": "929:4:13"
                                       }
                                     ],
-                                    "id": 4115,
+                                    "id": 2279,
                                     "name": "MemberAccess",
-                                    "src": "929:13:19"
+                                    "src": "929:13:13"
                                   },
                                   {
                                     "attributes": {
@@ -1492,7 +1492,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "head",
-                                      "referencedDeclaration": 4015,
+                                      "referencedDeclaration": 2179,
                                       "type": "bytes32"
                                     },
                                     "children": [
@@ -1502,28 +1502,28 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4065,
+                                          "referencedDeclaration": 2229,
                                           "type": "struct DoublyLinkedList.Elements storage pointer",
                                           "value": "self"
                                         },
-                                        "id": 4116,
+                                        "id": 2280,
                                         "name": "Identifier",
-                                        "src": "945:4:19"
+                                        "src": "945:4:13"
                                       }
                                     ],
-                                    "id": 4117,
+                                    "id": 2281,
                                     "name": "MemberAccess",
-                                    "src": "945:9:19"
+                                    "src": "945:9:13"
                                   }
                                 ],
-                                "id": 4118,
+                                "id": 2282,
                                 "name": "Assignment",
-                                "src": "929:25:19"
+                                "src": "929:25:13"
                               }
                             ],
-                            "id": 4119,
+                            "id": 2283,
                             "name": "ExpressionStatement",
-                            "src": "929:25:19"
+                            "src": "929:25:13"
                           },
                           {
                             "children": [
@@ -1546,7 +1546,7 @@
                                       "isPure": false,
                                       "lValueRequested": true,
                                       "member_name": "head",
-                                      "referencedDeclaration": 4015,
+                                      "referencedDeclaration": 2179,
                                       "type": "bytes32"
                                     },
                                     "children": [
@@ -1556,18 +1556,18 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4065,
+                                          "referencedDeclaration": 2229,
                                           "type": "struct DoublyLinkedList.Elements storage pointer",
                                           "value": "self"
                                         },
-                                        "id": 4120,
+                                        "id": 2284,
                                         "name": "Identifier",
-                                        "src": "968:4:19"
+                                        "src": "968:4:13"
                                       }
                                     ],
-                                    "id": 4122,
+                                    "id": 2286,
                                     "name": "MemberAccess",
-                                    "src": "968:9:19"
+                                    "src": "968:9:13"
                                   },
                                   {
                                     "attributes": {
@@ -1575,33 +1575,33 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4067,
+                                      "referencedDeclaration": 2231,
                                       "type": "bytes32",
                                       "value": "key"
                                     },
-                                    "id": 4123,
+                                    "id": 2287,
                                     "name": "Identifier",
-                                    "src": "980:3:19"
+                                    "src": "980:3:13"
                                   }
                                 ],
-                                "id": 4124,
+                                "id": 2288,
                                 "name": "Assignment",
-                                "src": "968:15:19"
+                                "src": "968:15:13"
                               }
                             ],
-                            "id": 4125,
+                            "id": 2289,
                             "name": "ExpressionStatement",
-                            "src": "968:15:19"
+                            "src": "968:15:13"
                           }
                         ],
-                        "id": 4126,
+                        "id": 2290,
                         "name": "Block",
-                        "src": "866:128:19"
+                        "src": "866:128:13"
                       }
                     ],
-                    "id": 4127,
+                    "id": 2291,
                     "name": "IfStatement",
-                    "src": "771:223:19"
+                    "src": "771:223:13"
                   },
                   {
                     "children": [
@@ -1624,7 +1624,7 @@
                               "isPure": false,
                               "lValueRequested": true,
                               "member_name": "data",
-                              "referencedDeclaration": 4030,
+                              "referencedDeclaration": 2194,
                               "type": "bool"
                             },
                             "children": [
@@ -1634,18 +1634,18 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4073,
+                                  "referencedDeclaration": 2237,
                                   "type": "struct DoublyLinkedList.Element storage pointer",
                                   "value": "elem"
                                 },
-                                "id": 4128,
+                                "id": 2292,
                                 "name": "Identifier",
-                                "src": "1003:4:19"
+                                "src": "1003:4:13"
                               }
                             ],
-                            "id": 4130,
+                            "id": 2294,
                             "name": "MemberAccess",
-                            "src": "1003:9:19"
+                            "src": "1003:9:13"
                           },
                           {
                             "attributes": {
@@ -1660,19 +1660,19 @@
                               "type": "bool",
                               "value": "true"
                             },
-                            "id": 4131,
+                            "id": 2295,
                             "name": "Literal",
-                            "src": "1015:4:19"
+                            "src": "1015:4:13"
                           }
                         ],
-                        "id": 4132,
+                        "id": 2296,
                         "name": "Assignment",
-                        "src": "1003:16:19"
+                        "src": "1003:16:13"
                       }
                     ],
-                    "id": 4133,
+                    "id": 2297,
                     "name": "ExpressionStatement",
-                    "src": "1003:16:19"
+                    "src": "1003:16:13"
                   },
                   {
                     "children": [
@@ -1696,7 +1696,7 @@
                               "isPure": false,
                               "lValueRequested": true,
                               "member_name": "size",
-                              "referencedDeclaration": 4019,
+                              "referencedDeclaration": 2183,
                               "type": "uint256"
                             },
                             "children": [
@@ -1706,32 +1706,32 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4065,
+                                  "referencedDeclaration": 2229,
                                   "type": "struct DoublyLinkedList.Elements storage pointer",
                                   "value": "self"
                                 },
-                                "id": 4134,
+                                "id": 2298,
                                 "name": "Identifier",
-                                "src": "1029:4:19"
+                                "src": "1029:4:13"
                               }
                             ],
-                            "id": 4136,
+                            "id": 2300,
                             "name": "MemberAccess",
-                            "src": "1029:9:19"
+                            "src": "1029:9:13"
                           }
                         ],
-                        "id": 4137,
+                        "id": 2301,
                         "name": "UnaryOperation",
-                        "src": "1029:11:19"
+                        "src": "1029:11:13"
                       }
                     ],
-                    "id": 4138,
+                    "id": 2302,
                     "name": "ExpressionStatement",
-                    "src": "1029:11:19"
+                    "src": "1029:11:13"
                   },
                   {
                     "attributes": {
-                      "functionReturnParameters": 4071
+                      "functionReturnParameters": 2235
                     },
                     "children": [
                       {
@@ -1747,24 +1747,24 @@
                           "type": "bool",
                           "value": "true"
                         },
-                        "id": 4139,
+                        "id": 2303,
                         "name": "Literal",
-                        "src": "1057:4:19"
+                        "src": "1057:4:13"
                       }
                     ],
-                    "id": 4140,
+                    "id": 2304,
                     "name": "Return",
-                    "src": "1050:11:19"
+                    "src": "1050:11:13"
                   }
                 ],
-                "id": 4141,
+                "id": 2305,
                 "name": "Block",
-                "src": "652:416:19"
+                "src": "652:416:13"
               }
             ],
-            "id": 4142,
+            "id": 2306,
             "name": "FunctionDefinition",
-            "src": "566:502:19"
+            "src": "566:502:13"
           },
           {
             "attributes": {
@@ -1776,7 +1776,7 @@
               ],
               "name": "removeElement",
               "payable": false,
-              "scope": 4262,
+              "scope": 2426,
               "stateMutability": "nonpayable",
               "superFunction": null,
               "visibility": "public"
@@ -1788,7 +1788,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "self",
-                      "scope": 4261,
+                      "scope": 2425,
                       "stateVariable": false,
                       "storageLocation": "storage",
                       "type": "struct DoublyLinkedList.Elements storage pointer",
@@ -1800,23 +1800,23 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "Elements",
-                          "referencedDeclaration": 4024,
+                          "referencedDeclaration": 2188,
                           "type": "struct DoublyLinkedList.Elements storage pointer"
                         },
-                        "id": 4143,
+                        "id": 2307,
                         "name": "UserDefinedTypeName",
-                        "src": "1097:8:19"
+                        "src": "1097:8:13"
                       }
                     ],
-                    "id": 4144,
+                    "id": 2308,
                     "name": "VariableDeclaration",
-                    "src": "1097:21:19"
+                    "src": "1097:21:13"
                   },
                   {
                     "attributes": {
                       "constant": false,
                       "name": "key",
-                      "scope": 4261,
+                      "scope": 2425,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -1829,19 +1829,19 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 4145,
+                        "id": 2309,
                         "name": "ElementaryTypeName",
-                        "src": "1120:7:19"
+                        "src": "1120:7:13"
                       }
                     ],
-                    "id": 4146,
+                    "id": 2310,
                     "name": "VariableDeclaration",
-                    "src": "1120:11:19"
+                    "src": "1120:11:13"
                   }
                 ],
-                "id": 4147,
+                "id": 2311,
                 "name": "ParameterList",
-                "src": "1096:36:19"
+                "src": "1096:36:13"
               },
               {
                 "children": [
@@ -1849,7 +1849,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "success",
-                      "scope": 4261,
+                      "scope": 2425,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bool",
@@ -1862,26 +1862,26 @@
                           "name": "bool",
                           "type": "bool"
                         },
-                        "id": 4148,
+                        "id": 2312,
                         "name": "ElementaryTypeName",
-                        "src": "1149:4:19"
+                        "src": "1149:4:13"
                       }
                     ],
-                    "id": 4149,
+                    "id": 2313,
                     "name": "VariableDeclaration",
-                    "src": "1149:12:19"
+                    "src": "1149:12:13"
                   }
                 ],
-                "id": 4150,
+                "id": 2314,
                 "name": "ParameterList",
-                "src": "1148:14:19"
+                "src": "1148:14:13"
               },
               {
                 "children": [
                   {
                     "attributes": {
                       "assignments": [
-                        4152
+                        2316
                       ]
                     },
                     "children": [
@@ -1889,7 +1889,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "elem",
-                          "scope": 4261,
+                          "scope": 2425,
                           "stateVariable": false,
                           "storageLocation": "storage",
                           "type": "struct DoublyLinkedList.Element storage pointer",
@@ -1901,17 +1901,17 @@
                             "attributes": {
                               "contractScope": null,
                               "name": "Element",
-                              "referencedDeclaration": 4031,
+                              "referencedDeclaration": 2195,
                               "type": "struct DoublyLinkedList.Element storage pointer"
                             },
-                            "id": 4151,
+                            "id": 2315,
                             "name": "UserDefinedTypeName",
-                            "src": "1173:7:19"
+                            "src": "1173:7:13"
                           }
                         ],
-                        "id": 4152,
+                        "id": 2316,
                         "name": "VariableDeclaration",
-                        "src": "1173:20:19"
+                        "src": "1173:20:13"
                       },
                       {
                         "attributes": {
@@ -1931,7 +1931,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "elements",
-                              "referencedDeclaration": 4023,
+                              "referencedDeclaration": 2187,
                               "type": "mapping(bytes32 => struct DoublyLinkedList.Element storage ref)"
                             },
                             "children": [
@@ -1941,18 +1941,18 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4144,
+                                  "referencedDeclaration": 2308,
                                   "type": "struct DoublyLinkedList.Elements storage pointer",
                                   "value": "self"
                                 },
-                                "id": 4153,
+                                "id": 2317,
                                 "name": "Identifier",
-                                "src": "1196:4:19"
+                                "src": "1196:4:13"
                               }
                             ],
-                            "id": 4154,
+                            "id": 2318,
                             "name": "MemberAccess",
-                            "src": "1196:13:19"
+                            "src": "1196:13:13"
                           },
                           {
                             "attributes": {
@@ -1960,23 +1960,23 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 4146,
+                              "referencedDeclaration": 2310,
                               "type": "bytes32",
                               "value": "key"
                             },
-                            "id": 4155,
+                            "id": 2319,
                             "name": "Identifier",
-                            "src": "1210:3:19"
+                            "src": "1210:3:13"
                           }
                         ],
-                        "id": 4156,
+                        "id": 2320,
                         "name": "IndexAccess",
-                        "src": "1196:18:19"
+                        "src": "1196:18:13"
                       }
                     ],
-                    "id": 4157,
+                    "id": 2321,
                     "name": "VariableDeclarationStatement",
-                    "src": "1173:41:19"
+                    "src": "1173:41:13"
                   },
                   {
                     "children": [
@@ -2006,13 +2006,13 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 4446,
+                              "referencedDeclaration": 2610,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
-                            "id": 4158,
+                            "id": 2322,
                             "name": "Identifier",
-                            "src": "1224:7:19"
+                            "src": "1224:7:13"
                           },
                           {
                             "attributes": {
@@ -2022,7 +2022,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "data",
-                              "referencedDeclaration": 4030,
+                              "referencedDeclaration": 2194,
                               "type": "bool"
                             },
                             "children": [
@@ -2032,28 +2032,28 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4152,
+                                  "referencedDeclaration": 2316,
                                   "type": "struct DoublyLinkedList.Element storage pointer",
                                   "value": "elem"
                                 },
-                                "id": 4159,
+                                "id": 2323,
                                 "name": "Identifier",
-                                "src": "1232:4:19"
+                                "src": "1232:4:13"
                               }
                             ],
-                            "id": 4160,
+                            "id": 2324,
                             "name": "MemberAccess",
-                            "src": "1232:9:19"
+                            "src": "1232:9:13"
                           }
                         ],
-                        "id": 4161,
+                        "id": 2325,
                         "name": "FunctionCall",
-                        "src": "1224:18:19"
+                        "src": "1224:18:13"
                       }
                     ],
-                    "id": 4162,
+                    "id": 2326,
                     "name": "ExpressionStatement",
-                    "src": "1224:18:19"
+                    "src": "1224:18:13"
                   },
                   {
                     "children": [
@@ -2083,13 +2083,13 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 4446,
+                              "referencedDeclaration": 2610,
                               "type": "function (bool) pure",
                               "value": "require"
                             },
-                            "id": 4163,
+                            "id": 2327,
                             "name": "Identifier",
-                            "src": "1252:7:19"
+                            "src": "1252:7:13"
                           },
                           {
                             "attributes": {
@@ -2114,7 +2114,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "size",
-                                  "referencedDeclaration": 4019,
+                                  "referencedDeclaration": 2183,
                                   "type": "uint256"
                                 },
                                 "children": [
@@ -2124,18 +2124,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4144,
+                                      "referencedDeclaration": 2308,
                                       "type": "struct DoublyLinkedList.Elements storage pointer",
                                       "value": "self"
                                     },
-                                    "id": 4164,
+                                    "id": 2328,
                                     "name": "Identifier",
-                                    "src": "1260:4:19"
+                                    "src": "1260:4:13"
                                   }
                                 ],
-                                "id": 4165,
+                                "id": 2329,
                                 "name": "MemberAccess",
-                                "src": "1260:9:19"
+                                "src": "1260:9:13"
                               },
                               {
                                 "attributes": {
@@ -2150,24 +2150,24 @@
                                   "type": "int_const 0",
                                   "value": "0"
                                 },
-                                "id": 4166,
+                                "id": 2330,
                                 "name": "Literal",
-                                "src": "1272:1:19"
+                                "src": "1272:1:13"
                               }
                             ],
-                            "id": 4167,
+                            "id": 2331,
                             "name": "BinaryOperation",
-                            "src": "1260:13:19"
+                            "src": "1260:13:13"
                           }
                         ],
-                        "id": 4168,
+                        "id": 2332,
                         "name": "FunctionCall",
-                        "src": "1252:22:19"
+                        "src": "1252:22:13"
                       }
                     ],
-                    "id": 4169,
+                    "id": 2333,
                     "name": "ExpressionStatement",
-                    "src": "1252:22:19"
+                    "src": "1252:22:13"
                   },
                   {
                     "children": [
@@ -2194,7 +2194,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "size",
-                              "referencedDeclaration": 4019,
+                              "referencedDeclaration": 2183,
                               "type": "uint256"
                             },
                             "children": [
@@ -2204,18 +2204,18 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4144,
+                                  "referencedDeclaration": 2308,
                                   "type": "struct DoublyLinkedList.Elements storage pointer",
                                   "value": "self"
                                 },
-                                "id": 4170,
+                                "id": 2334,
                                 "name": "Identifier",
-                                "src": "1289:4:19"
+                                "src": "1289:4:13"
                               }
                             ],
-                            "id": 4171,
+                            "id": 2335,
                             "name": "MemberAccess",
-                            "src": "1289:9:19"
+                            "src": "1289:9:13"
                           },
                           {
                             "attributes": {
@@ -2230,14 +2230,14 @@
                               "type": "int_const 1",
                               "value": "1"
                             },
-                            "id": 4172,
+                            "id": 2336,
                             "name": "Literal",
-                            "src": "1302:1:19"
+                            "src": "1302:1:13"
                           }
                         ],
-                        "id": 4173,
+                        "id": 2337,
                         "name": "BinaryOperation",
-                        "src": "1289:14:19"
+                        "src": "1289:14:13"
                       },
                       {
                         "children": [
@@ -2262,7 +2262,7 @@
                                       "isPure": false,
                                       "lValueRequested": true,
                                       "member_name": "head",
-                                      "referencedDeclaration": 4015,
+                                      "referencedDeclaration": 2179,
                                       "type": "bytes32"
                                     },
                                     "children": [
@@ -2272,18 +2272,18 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4144,
+                                          "referencedDeclaration": 2308,
                                           "type": "struct DoublyLinkedList.Elements storage pointer",
                                           "value": "self"
                                         },
-                                        "id": 4174,
+                                        "id": 2338,
                                         "name": "Identifier",
-                                        "src": "1319:4:19"
+                                        "src": "1319:4:13"
                                       }
                                     ],
-                                    "id": 4176,
+                                    "id": 2340,
                                     "name": "MemberAccess",
-                                    "src": "1319:9:19"
+                                    "src": "1319:9:13"
                                   },
                                   {
                                     "attributes": {
@@ -2315,9 +2315,9 @@
                                           "type": "type(bytes32)",
                                           "value": "bytes32"
                                         },
-                                        "id": 4177,
+                                        "id": 2341,
                                         "name": "ElementaryTypeNameExpression",
-                                        "src": "1331:7:19"
+                                        "src": "1331:7:13"
                                       },
                                       {
                                         "attributes": {
@@ -2332,24 +2332,24 @@
                                           "type": "int_const 0",
                                           "value": "0"
                                         },
-                                        "id": 4178,
+                                        "id": 2342,
                                         "name": "Literal",
-                                        "src": "1339:1:19"
+                                        "src": "1339:1:13"
                                       }
                                     ],
-                                    "id": 4179,
+                                    "id": 2343,
                                     "name": "FunctionCall",
-                                    "src": "1331:10:19"
+                                    "src": "1331:10:13"
                                   }
                                 ],
-                                "id": 4180,
+                                "id": 2344,
                                 "name": "Assignment",
-                                "src": "1319:22:19"
+                                "src": "1319:22:13"
                               }
                             ],
-                            "id": 4181,
+                            "id": 2345,
                             "name": "ExpressionStatement",
-                            "src": "1319:22:19"
+                            "src": "1319:22:13"
                           },
                           {
                             "children": [
@@ -2372,7 +2372,7 @@
                                       "isPure": false,
                                       "lValueRequested": true,
                                       "member_name": "tail",
-                                      "referencedDeclaration": 4017,
+                                      "referencedDeclaration": 2181,
                                       "type": "bytes32"
                                     },
                                     "children": [
@@ -2382,18 +2382,18 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4144,
+                                          "referencedDeclaration": 2308,
                                           "type": "struct DoublyLinkedList.Elements storage pointer",
                                           "value": "self"
                                         },
-                                        "id": 4182,
+                                        "id": 2346,
                                         "name": "Identifier",
-                                        "src": "1355:4:19"
+                                        "src": "1355:4:13"
                                       }
                                     ],
-                                    "id": 4184,
+                                    "id": 2348,
                                     "name": "MemberAccess",
-                                    "src": "1355:9:19"
+                                    "src": "1355:9:13"
                                   },
                                   {
                                     "attributes": {
@@ -2425,9 +2425,9 @@
                                           "type": "type(bytes32)",
                                           "value": "bytes32"
                                         },
-                                        "id": 4185,
+                                        "id": 2349,
                                         "name": "ElementaryTypeNameExpression",
-                                        "src": "1367:7:19"
+                                        "src": "1367:7:13"
                                       },
                                       {
                                         "attributes": {
@@ -2442,29 +2442,29 @@
                                           "type": "int_const 0",
                                           "value": "0"
                                         },
-                                        "id": 4186,
+                                        "id": 2350,
                                         "name": "Literal",
-                                        "src": "1375:1:19"
+                                        "src": "1375:1:13"
                                       }
                                     ],
-                                    "id": 4187,
+                                    "id": 2351,
                                     "name": "FunctionCall",
-                                    "src": "1367:10:19"
+                                    "src": "1367:10:13"
                                   }
                                 ],
-                                "id": 4188,
+                                "id": 2352,
                                 "name": "Assignment",
-                                "src": "1355:22:19"
+                                "src": "1355:22:13"
                               }
                             ],
-                            "id": 4189,
+                            "id": 2353,
                             "name": "ExpressionStatement",
-                            "src": "1355:22:19"
+                            "src": "1355:22:13"
                           }
                         ],
-                        "id": 4190,
+                        "id": 2354,
                         "name": "Block",
-                        "src": "1305:83:19"
+                        "src": "1305:83:13"
                       },
                       {
                         "children": [
@@ -2489,13 +2489,13 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4146,
+                                  "referencedDeclaration": 2310,
                                   "type": "bytes32",
                                   "value": "key"
                                 },
-                                "id": 4191,
+                                "id": 2355,
                                 "name": "Identifier",
-                                "src": "1398:3:19"
+                                "src": "1398:3:13"
                               },
                               {
                                 "attributes": {
@@ -2505,7 +2505,7 @@
                                   "isPure": false,
                                   "lValueRequested": false,
                                   "member_name": "head",
-                                  "referencedDeclaration": 4015,
+                                  "referencedDeclaration": 2179,
                                   "type": "bytes32"
                                 },
                                 "children": [
@@ -2515,23 +2515,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4144,
+                                      "referencedDeclaration": 2308,
                                       "type": "struct DoublyLinkedList.Elements storage pointer",
                                       "value": "self"
                                     },
-                                    "id": 4192,
+                                    "id": 2356,
                                     "name": "Identifier",
-                                    "src": "1405:4:19"
+                                    "src": "1405:4:13"
                                   }
                                 ],
-                                "id": 4193,
+                                "id": 2357,
                                 "name": "MemberAccess",
-                                "src": "1405:9:19"
+                                "src": "1405:9:13"
                               }
                             ],
-                            "id": 4194,
+                            "id": 2358,
                             "name": "BinaryOperation",
-                            "src": "1398:16:19"
+                            "src": "1398:16:13"
                           },
                           {
                             "children": [
@@ -2556,7 +2556,7 @@
                                           "isPure": false,
                                           "lValueRequested": true,
                                           "member_name": "head",
-                                          "referencedDeclaration": 4015,
+                                          "referencedDeclaration": 2179,
                                           "type": "bytes32"
                                         },
                                         "children": [
@@ -2566,18 +2566,18 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 4144,
+                                              "referencedDeclaration": 2308,
                                               "type": "struct DoublyLinkedList.Elements storage pointer",
                                               "value": "self"
                                             },
-                                            "id": 4195,
+                                            "id": 2359,
                                             "name": "Identifier",
-                                            "src": "1430:4:19"
+                                            "src": "1430:4:13"
                                           }
                                         ],
-                                        "id": 4197,
+                                        "id": 2361,
                                         "name": "MemberAccess",
-                                        "src": "1430:9:19"
+                                        "src": "1430:9:13"
                                       },
                                       {
                                         "attributes": {
@@ -2587,7 +2587,7 @@
                                           "isPure": false,
                                           "lValueRequested": false,
                                           "member_name": "previous",
-                                          "referencedDeclaration": 4026,
+                                          "referencedDeclaration": 2190,
                                           "type": "bytes32"
                                         },
                                         "children": [
@@ -2597,33 +2597,33 @@
                                               "overloadedDeclarations": [
                                                 null
                                               ],
-                                              "referencedDeclaration": 4152,
+                                              "referencedDeclaration": 2316,
                                               "type": "struct DoublyLinkedList.Element storage pointer",
                                               "value": "elem"
                                             },
-                                            "id": 4198,
+                                            "id": 2362,
                                             "name": "Identifier",
-                                            "src": "1442:4:19"
+                                            "src": "1442:4:13"
                                           }
                                         ],
-                                        "id": 4199,
+                                        "id": 2363,
                                         "name": "MemberAccess",
-                                        "src": "1442:13:19"
+                                        "src": "1442:13:13"
                                       }
                                     ],
-                                    "id": 4200,
+                                    "id": 2364,
                                     "name": "Assignment",
-                                    "src": "1430:25:19"
+                                    "src": "1430:25:13"
                                   }
                                 ],
-                                "id": 4201,
+                                "id": 2365,
                                 "name": "ExpressionStatement",
-                                "src": "1430:25:19"
+                                "src": "1430:25:13"
                               }
                             ],
-                            "id": 4202,
+                            "id": 2366,
                             "name": "Block",
-                            "src": "1416:50:19"
+                            "src": "1416:50:13"
                           },
                           {
                             "children": [
@@ -2648,13 +2648,13 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 4146,
+                                      "referencedDeclaration": 2310,
                                       "type": "bytes32",
                                       "value": "key"
                                     },
-                                    "id": 4203,
+                                    "id": 2367,
                                     "name": "Identifier",
-                                    "src": "1476:3:19"
+                                    "src": "1476:3:13"
                                   },
                                   {
                                     "attributes": {
@@ -2664,7 +2664,7 @@
                                       "isPure": false,
                                       "lValueRequested": false,
                                       "member_name": "tail",
-                                      "referencedDeclaration": 4017,
+                                      "referencedDeclaration": 2181,
                                       "type": "bytes32"
                                     },
                                     "children": [
@@ -2674,23 +2674,23 @@
                                           "overloadedDeclarations": [
                                             null
                                           ],
-                                          "referencedDeclaration": 4144,
+                                          "referencedDeclaration": 2308,
                                           "type": "struct DoublyLinkedList.Elements storage pointer",
                                           "value": "self"
                                         },
-                                        "id": 4204,
+                                        "id": 2368,
                                         "name": "Identifier",
-                                        "src": "1483:4:19"
+                                        "src": "1483:4:13"
                                       }
                                     ],
-                                    "id": 4205,
+                                    "id": 2369,
                                     "name": "MemberAccess",
-                                    "src": "1483:9:19"
+                                    "src": "1483:9:13"
                                   }
                                 ],
-                                "id": 4206,
+                                "id": 2370,
                                 "name": "BinaryOperation",
-                                "src": "1476:16:19"
+                                "src": "1476:16:13"
                               },
                               {
                                 "children": [
@@ -2715,7 +2715,7 @@
                                               "isPure": false,
                                               "lValueRequested": true,
                                               "member_name": "tail",
-                                              "referencedDeclaration": 4017,
+                                              "referencedDeclaration": 2181,
                                               "type": "bytes32"
                                             },
                                             "children": [
@@ -2725,18 +2725,18 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 4144,
+                                                  "referencedDeclaration": 2308,
                                                   "type": "struct DoublyLinkedList.Elements storage pointer",
                                                   "value": "self"
                                                 },
-                                                "id": 4207,
+                                                "id": 2371,
                                                 "name": "Identifier",
-                                                "src": "1508:4:19"
+                                                "src": "1508:4:13"
                                               }
                                             ],
-                                            "id": 4209,
+                                            "id": 2373,
                                             "name": "MemberAccess",
-                                            "src": "1508:9:19"
+                                            "src": "1508:9:13"
                                           },
                                           {
                                             "attributes": {
@@ -2746,7 +2746,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "next",
-                                              "referencedDeclaration": 4028,
+                                              "referencedDeclaration": 2192,
                                               "type": "bytes32"
                                             },
                                             "children": [
@@ -2756,33 +2756,33 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 4152,
+                                                  "referencedDeclaration": 2316,
                                                   "type": "struct DoublyLinkedList.Element storage pointer",
                                                   "value": "elem"
                                                 },
-                                                "id": 4210,
+                                                "id": 2374,
                                                 "name": "Identifier",
-                                                "src": "1520:4:19"
+                                                "src": "1520:4:13"
                                               }
                                             ],
-                                            "id": 4211,
+                                            "id": 2375,
                                             "name": "MemberAccess",
-                                            "src": "1520:9:19"
+                                            "src": "1520:9:13"
                                           }
                                         ],
-                                        "id": 4212,
+                                        "id": 2376,
                                         "name": "Assignment",
-                                        "src": "1508:21:19"
+                                        "src": "1508:21:13"
                                       }
                                     ],
-                                    "id": 4213,
+                                    "id": 2377,
                                     "name": "ExpressionStatement",
-                                    "src": "1508:21:19"
+                                    "src": "1508:21:13"
                                   }
                                 ],
-                                "id": 4214,
+                                "id": 2378,
                                 "name": "Block",
-                                "src": "1494:46:19"
+                                "src": "1494:46:13"
                               },
                               {
                                 "children": [
@@ -2807,7 +2807,7 @@
                                               "isPure": false,
                                               "lValueRequested": true,
                                               "member_name": "next",
-                                              "referencedDeclaration": 4028,
+                                              "referencedDeclaration": 2192,
                                               "type": "bytes32"
                                             },
                                             "children": [
@@ -2829,7 +2829,7 @@
                                                       "isPure": false,
                                                       "lValueRequested": false,
                                                       "member_name": "elements",
-                                                      "referencedDeclaration": 4023,
+                                                      "referencedDeclaration": 2187,
                                                       "type": "mapping(bytes32 => struct DoublyLinkedList.Element storage ref)"
                                                     },
                                                     "children": [
@@ -2839,18 +2839,18 @@
                                                           "overloadedDeclarations": [
                                                             null
                                                           ],
-                                                          "referencedDeclaration": 4144,
+                                                          "referencedDeclaration": 2308,
                                                           "type": "struct DoublyLinkedList.Elements storage pointer",
                                                           "value": "self"
                                                         },
-                                                        "id": 4215,
+                                                        "id": 2379,
                                                         "name": "Identifier",
-                                                        "src": "1560:4:19"
+                                                        "src": "1560:4:13"
                                                       }
                                                     ],
-                                                    "id": 4219,
+                                                    "id": 2383,
                                                     "name": "MemberAccess",
-                                                    "src": "1560:13:19"
+                                                    "src": "1560:13:13"
                                                   },
                                                   {
                                                     "attributes": {
@@ -2860,7 +2860,7 @@
                                                       "isPure": false,
                                                       "lValueRequested": false,
                                                       "member_name": "previous",
-                                                      "referencedDeclaration": 4026,
+                                                      "referencedDeclaration": 2190,
                                                       "type": "bytes32"
                                                     },
                                                     "children": [
@@ -2870,28 +2870,28 @@
                                                           "overloadedDeclarations": [
                                                             null
                                                           ],
-                                                          "referencedDeclaration": 4152,
+                                                          "referencedDeclaration": 2316,
                                                           "type": "struct DoublyLinkedList.Element storage pointer",
                                                           "value": "elem"
                                                         },
-                                                        "id": 4217,
+                                                        "id": 2381,
                                                         "name": "Identifier",
-                                                        "src": "1574:4:19"
+                                                        "src": "1574:4:13"
                                                       }
                                                     ],
-                                                    "id": 4218,
+                                                    "id": 2382,
                                                     "name": "MemberAccess",
-                                                    "src": "1574:13:19"
+                                                    "src": "1574:13:13"
                                                   }
                                                 ],
-                                                "id": 4220,
+                                                "id": 2384,
                                                 "name": "IndexAccess",
-                                                "src": "1560:28:19"
+                                                "src": "1560:28:13"
                                               }
                                             ],
-                                            "id": 4221,
+                                            "id": 2385,
                                             "name": "MemberAccess",
-                                            "src": "1560:33:19"
+                                            "src": "1560:33:13"
                                           },
                                           {
                                             "attributes": {
@@ -2901,7 +2901,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "next",
-                                              "referencedDeclaration": 4028,
+                                              "referencedDeclaration": 2192,
                                               "type": "bytes32"
                                             },
                                             "children": [
@@ -2911,28 +2911,28 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 4152,
+                                                  "referencedDeclaration": 2316,
                                                   "type": "struct DoublyLinkedList.Element storage pointer",
                                                   "value": "elem"
                                                 },
-                                                "id": 4222,
+                                                "id": 2386,
                                                 "name": "Identifier",
-                                                "src": "1596:4:19"
+                                                "src": "1596:4:13"
                                               }
                                             ],
-                                            "id": 4223,
+                                            "id": 2387,
                                             "name": "MemberAccess",
-                                            "src": "1596:9:19"
+                                            "src": "1596:9:13"
                                           }
                                         ],
-                                        "id": 4224,
+                                        "id": 2388,
                                         "name": "Assignment",
-                                        "src": "1560:45:19"
+                                        "src": "1560:45:13"
                                       }
                                     ],
-                                    "id": 4225,
+                                    "id": 2389,
                                     "name": "ExpressionStatement",
-                                    "src": "1560:45:19"
+                                    "src": "1560:45:13"
                                   },
                                   {
                                     "children": [
@@ -2955,7 +2955,7 @@
                                               "isPure": false,
                                               "lValueRequested": true,
                                               "member_name": "previous",
-                                              "referencedDeclaration": 4026,
+                                              "referencedDeclaration": 2190,
                                               "type": "bytes32"
                                             },
                                             "children": [
@@ -2977,7 +2977,7 @@
                                                       "isPure": false,
                                                       "lValueRequested": false,
                                                       "member_name": "elements",
-                                                      "referencedDeclaration": 4023,
+                                                      "referencedDeclaration": 2187,
                                                       "type": "mapping(bytes32 => struct DoublyLinkedList.Element storage ref)"
                                                     },
                                                     "children": [
@@ -2987,18 +2987,18 @@
                                                           "overloadedDeclarations": [
                                                             null
                                                           ],
-                                                          "referencedDeclaration": 4144,
+                                                          "referencedDeclaration": 2308,
                                                           "type": "struct DoublyLinkedList.Elements storage pointer",
                                                           "value": "self"
                                                         },
-                                                        "id": 4226,
+                                                        "id": 2390,
                                                         "name": "Identifier",
-                                                        "src": "1619:4:19"
+                                                        "src": "1619:4:13"
                                                       }
                                                     ],
-                                                    "id": 4230,
+                                                    "id": 2394,
                                                     "name": "MemberAccess",
-                                                    "src": "1619:13:19"
+                                                    "src": "1619:13:13"
                                                   },
                                                   {
                                                     "attributes": {
@@ -3008,7 +3008,7 @@
                                                       "isPure": false,
                                                       "lValueRequested": false,
                                                       "member_name": "next",
-                                                      "referencedDeclaration": 4028,
+                                                      "referencedDeclaration": 2192,
                                                       "type": "bytes32"
                                                     },
                                                     "children": [
@@ -3018,28 +3018,28 @@
                                                           "overloadedDeclarations": [
                                                             null
                                                           ],
-                                                          "referencedDeclaration": 4152,
+                                                          "referencedDeclaration": 2316,
                                                           "type": "struct DoublyLinkedList.Element storage pointer",
                                                           "value": "elem"
                                                         },
-                                                        "id": 4228,
+                                                        "id": 2392,
                                                         "name": "Identifier",
-                                                        "src": "1633:4:19"
+                                                        "src": "1633:4:13"
                                                       }
                                                     ],
-                                                    "id": 4229,
+                                                    "id": 2393,
                                                     "name": "MemberAccess",
-                                                    "src": "1633:9:19"
+                                                    "src": "1633:9:13"
                                                   }
                                                 ],
-                                                "id": 4231,
+                                                "id": 2395,
                                                 "name": "IndexAccess",
-                                                "src": "1619:24:19"
+                                                "src": "1619:24:13"
                                               }
                                             ],
-                                            "id": 4232,
+                                            "id": 2396,
                                             "name": "MemberAccess",
-                                            "src": "1619:33:19"
+                                            "src": "1619:33:13"
                                           },
                                           {
                                             "attributes": {
@@ -3049,7 +3049,7 @@
                                               "isPure": false,
                                               "lValueRequested": false,
                                               "member_name": "previous",
-                                              "referencedDeclaration": 4026,
+                                              "referencedDeclaration": 2190,
                                               "type": "bytes32"
                                             },
                                             "children": [
@@ -3059,48 +3059,48 @@
                                                   "overloadedDeclarations": [
                                                     null
                                                   ],
-                                                  "referencedDeclaration": 4152,
+                                                  "referencedDeclaration": 2316,
                                                   "type": "struct DoublyLinkedList.Element storage pointer",
                                                   "value": "elem"
                                                 },
-                                                "id": 4233,
+                                                "id": 2397,
                                                 "name": "Identifier",
-                                                "src": "1655:4:19"
+                                                "src": "1655:4:13"
                                               }
                                             ],
-                                            "id": 4234,
+                                            "id": 2398,
                                             "name": "MemberAccess",
-                                            "src": "1655:13:19"
+                                            "src": "1655:13:13"
                                           }
                                         ],
-                                        "id": 4235,
+                                        "id": 2399,
                                         "name": "Assignment",
-                                        "src": "1619:49:19"
+                                        "src": "1619:49:13"
                                       }
                                     ],
-                                    "id": 4236,
+                                    "id": 2400,
                                     "name": "ExpressionStatement",
-                                    "src": "1619:49:19"
+                                    "src": "1619:49:13"
                                   }
                                 ],
-                                "id": 4237,
+                                "id": 2401,
                                 "name": "Block",
-                                "src": "1546:133:19"
+                                "src": "1546:133:13"
                               }
                             ],
-                            "id": 4238,
+                            "id": 2402,
                             "name": "IfStatement",
-                            "src": "1472:207:19"
+                            "src": "1472:207:13"
                           }
                         ],
-                        "id": 4239,
+                        "id": 2403,
                         "name": "IfStatement",
-                        "src": "1394:285:19"
+                        "src": "1394:285:13"
                       }
                     ],
-                    "id": 4240,
+                    "id": 2404,
                     "name": "IfStatement",
-                    "src": "1285:394:19"
+                    "src": "1285:394:13"
                   },
                   {
                     "children": [
@@ -3124,7 +3124,7 @@
                               "isPure": false,
                               "lValueRequested": true,
                               "member_name": "data",
-                              "referencedDeclaration": 4030,
+                              "referencedDeclaration": 2194,
                               "type": "bool"
                             },
                             "children": [
@@ -3134,28 +3134,28 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4152,
+                                  "referencedDeclaration": 2316,
                                   "type": "struct DoublyLinkedList.Element storage pointer",
                                   "value": "elem"
                                 },
-                                "id": 4241,
+                                "id": 2405,
                                 "name": "Identifier",
-                                "src": "1695:4:19"
+                                "src": "1695:4:13"
                               }
                             ],
-                            "id": 4242,
+                            "id": 2406,
                             "name": "MemberAccess",
-                            "src": "1695:9:19"
+                            "src": "1695:9:13"
                           }
                         ],
-                        "id": 4243,
+                        "id": 2407,
                         "name": "UnaryOperation",
-                        "src": "1688:16:19"
+                        "src": "1688:16:13"
                       }
                     ],
-                    "id": 4244,
+                    "id": 2408,
                     "name": "ExpressionStatement",
-                    "src": "1688:16:19"
+                    "src": "1688:16:13"
                   },
                   {
                     "children": [
@@ -3179,7 +3179,7 @@
                               "isPure": false,
                               "lValueRequested": true,
                               "member_name": "previous",
-                              "referencedDeclaration": 4026,
+                              "referencedDeclaration": 2190,
                               "type": "bytes32"
                             },
                             "children": [
@@ -3189,28 +3189,28 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4152,
+                                  "referencedDeclaration": 2316,
                                   "type": "struct DoublyLinkedList.Element storage pointer",
                                   "value": "elem"
                                 },
-                                "id": 4245,
+                                "id": 2409,
                                 "name": "Identifier",
-                                "src": "1721:4:19"
+                                "src": "1721:4:13"
                               }
                             ],
-                            "id": 4246,
+                            "id": 2410,
                             "name": "MemberAccess",
-                            "src": "1721:13:19"
+                            "src": "1721:13:13"
                           }
                         ],
-                        "id": 4247,
+                        "id": 2411,
                         "name": "UnaryOperation",
-                        "src": "1714:20:19"
+                        "src": "1714:20:13"
                       }
                     ],
-                    "id": 4248,
+                    "id": 2412,
                     "name": "ExpressionStatement",
-                    "src": "1714:20:19"
+                    "src": "1714:20:13"
                   },
                   {
                     "children": [
@@ -3234,7 +3234,7 @@
                               "isPure": false,
                               "lValueRequested": true,
                               "member_name": "next",
-                              "referencedDeclaration": 4028,
+                              "referencedDeclaration": 2192,
                               "type": "bytes32"
                             },
                             "children": [
@@ -3244,28 +3244,28 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4152,
+                                  "referencedDeclaration": 2316,
                                   "type": "struct DoublyLinkedList.Element storage pointer",
                                   "value": "elem"
                                 },
-                                "id": 4249,
+                                "id": 2413,
                                 "name": "Identifier",
-                                "src": "1751:4:19"
+                                "src": "1751:4:13"
                               }
                             ],
-                            "id": 4250,
+                            "id": 2414,
                             "name": "MemberAccess",
-                            "src": "1751:9:19"
+                            "src": "1751:9:13"
                           }
                         ],
-                        "id": 4251,
+                        "id": 2415,
                         "name": "UnaryOperation",
-                        "src": "1744:16:19"
+                        "src": "1744:16:13"
                       }
                     ],
-                    "id": 4252,
+                    "id": 2416,
                     "name": "ExpressionStatement",
-                    "src": "1744:16:19"
+                    "src": "1744:16:13"
                   },
                   {
                     "children": [
@@ -3289,7 +3289,7 @@
                               "isPure": false,
                               "lValueRequested": true,
                               "member_name": "size",
-                              "referencedDeclaration": 4019,
+                              "referencedDeclaration": 2183,
                               "type": "uint256"
                             },
                             "children": [
@@ -3299,32 +3299,32 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 4144,
+                                  "referencedDeclaration": 2308,
                                   "type": "struct DoublyLinkedList.Elements storage pointer",
                                   "value": "self"
                                 },
-                                "id": 4253,
+                                "id": 2417,
                                 "name": "Identifier",
-                                "src": "1770:4:19"
+                                "src": "1770:4:13"
                               }
                             ],
-                            "id": 4255,
+                            "id": 2419,
                             "name": "MemberAccess",
-                            "src": "1770:9:19"
+                            "src": "1770:9:13"
                           }
                         ],
-                        "id": 4256,
+                        "id": 2420,
                         "name": "UnaryOperation",
-                        "src": "1770:11:19"
+                        "src": "1770:11:13"
                       }
                     ],
-                    "id": 4257,
+                    "id": 2421,
                     "name": "ExpressionStatement",
-                    "src": "1770:11:19"
+                    "src": "1770:11:13"
                   },
                   {
                     "attributes": {
-                      "functionReturnParameters": 4150
+                      "functionReturnParameters": 2314
                     },
                     "children": [
                       {
@@ -3340,34 +3340,34 @@
                           "type": "bool",
                           "value": "true"
                         },
-                        "id": 4258,
+                        "id": 2422,
                         "name": "Literal",
-                        "src": "1798:4:19"
+                        "src": "1798:4:13"
                       }
                     ],
-                    "id": 4259,
+                    "id": 2423,
                     "name": "Return",
-                    "src": "1791:11:19"
+                    "src": "1791:11:13"
                   }
                 ],
-                "id": 4260,
+                "id": 2424,
                 "name": "Block",
-                "src": "1163:646:19"
+                "src": "1163:646:13"
               }
             ],
-            "id": 4261,
+            "id": 2425,
             "name": "FunctionDefinition",
-            "src": "1074:735:19"
+            "src": "1074:735:13"
           }
         ],
-        "id": 4262,
+        "id": 2426,
         "name": "ContractDefinition",
-        "src": "27:1784:19"
+        "src": "27:1784:13"
       }
     ],
-    "id": 4263,
+    "id": 2427,
     "name": "SourceUnit",
-    "src": "0:1811:19"
+    "src": "0:1811:13"
   },
   "compiler": {
     "name": "solc",
@@ -3381,5 +3381,5 @@
     }
   },
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-19T23:47:54.481Z"
+  "updatedAt": "2018-02-23T21:15:20.163Z"
 }

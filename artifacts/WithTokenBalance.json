@@ -3,8 +3,8 @@
   "abi": [],
   "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820365299022f4d0aa7a3a403e1b1940f342c48b631fd4aaf1ac711b4cecd6a42ab0029",
   "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820365299022f4d0aa7a3a403e1b1940f342c48b631fd4aaf1ac711b4cecd6a42ab0029",
-  "sourceMap": "76:169:12:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "76:169:12:-;;;;;",
+  "sourceMap": "76:169:7:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "76:169:7:-;;;;;",
   "source": "/* Add a token balance struct to a contract */\n\n\npragma solidity ^0.4.17;\n\n\ncontract WithTokenBalance {\n\n  // Token balances are dynamic and must include a query time\n  struct TokenBalance {\n      uint256 balance;\n      uint256 queryTime;\n  }\n\n}\n",
   "sourcePath": "/home/user/ofn-engine/contracts/WithTokenBalance.sol",
   "ast": {
@@ -12,7 +12,7 @@
       "absolutePath": "/home/user/ofn-engine/contracts/WithTokenBalance.sol",
       "exportedSymbols": {
         "WithTokenBalance": [
-          3838
+          2012
         ]
       }
     },
@@ -26,9 +26,9 @@
             ".17"
           ]
         },
-        "id": 3832,
+        "id": 2006,
         "name": "PragmaDirective",
-        "src": "49:24:12"
+        "src": "49:24:7"
       },
       {
         "attributes": {
@@ -42,17 +42,17 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            3838
+            2012
           ],
           "name": "WithTokenBalance",
-          "scope": 3839
+          "scope": 2013
         },
         "children": [
           {
             "attributes": {
               "canonicalName": "WithTokenBalance.TokenBalance",
               "name": "TokenBalance",
-              "scope": 3838,
+              "scope": 2012,
               "visibility": "public"
             },
             "children": [
@@ -60,7 +60,7 @@
                 "attributes": {
                   "constant": false,
                   "name": "balance",
-                  "scope": 3837,
+                  "scope": 2011,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "uint256",
@@ -73,20 +73,20 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 3833,
+                    "id": 2007,
                     "name": "ElementaryTypeName",
-                    "src": "197:7:12"
+                    "src": "197:7:7"
                   }
                 ],
-                "id": 3834,
+                "id": 2008,
                 "name": "VariableDeclaration",
-                "src": "197:15:12"
+                "src": "197:15:7"
               },
               {
                 "attributes": {
                   "constant": false,
                   "name": "queryTime",
-                  "scope": 3837,
+                  "scope": 2011,
                   "stateVariable": false,
                   "storageLocation": "default",
                   "type": "uint256",
@@ -99,29 +99,29 @@
                       "name": "uint256",
                       "type": "uint256"
                     },
-                    "id": 3835,
+                    "id": 2009,
                     "name": "ElementaryTypeName",
-                    "src": "220:7:12"
+                    "src": "220:7:7"
                   }
                 ],
-                "id": 3836,
+                "id": 2010,
                 "name": "VariableDeclaration",
-                "src": "220:17:12"
+                "src": "220:17:7"
               }
             ],
-            "id": 3837,
+            "id": 2011,
             "name": "StructDefinition",
-            "src": "169:73:12"
+            "src": "169:73:7"
           }
         ],
-        "id": 3838,
+        "id": 2012,
         "name": "ContractDefinition",
-        "src": "76:169:12"
+        "src": "76:169:7"
       }
     ],
-    "id": 3839,
+    "id": 2013,
     "name": "SourceUnit",
-    "src": "49:197:12"
+    "src": "49:197:7"
   },
   "compiler": {
     "name": "solc",
@@ -129,5 +129,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-19T23:47:32.802Z"
+  "updatedAt": "2018-02-23T21:15:20.162Z"
 }

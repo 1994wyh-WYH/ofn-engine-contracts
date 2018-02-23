@@ -23,8 +23,8 @@
   ],
   "bytecode": "0x6060604052341561000f57600080fd5b6101d48061001e6000396000f300606060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680639f577c1514610046575b600080fd5b341561005157600080fd5b61007d600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610097565b604051808215151515815260200191505060405180910390f35b6000808273ffffffffffffffffffffffffffffffffffffffff16141515156100be57600080fd5b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16148061015057506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b1561019e57816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190506101a3565b600090505b9190505600a165627a7a723058200bf46493e95118ca4ce5de0f86b81b4fab41c96f1db146f252cd77abd2a9a43d0029",
   "deployedBytecode": "0x606060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680639f577c1514610046575b600080fd5b341561005157600080fd5b61007d600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610097565b604051808215151515815260200191505060405180910390f35b6000808273ffffffffffffffffffffffffffffffffffffffff16141515156100be57600080fd5b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16148061015057506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b1561019e57816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190506101a3565b600090505b9190505600a165627a7a723058200bf46493e95118ca4ce5de0f86b81b4fab41c96f1db146f252cd77abd2a9a43d0029",
-  "sourceMap": "279:310:7:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "279:310:7:-;;;;;;;;;;;;;;;;;;;;;;;;130:243:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;187:4;218:3;211;:10;;;;203:19;;;;;;;;241:3;235:2;;;;;;;;;;;:9;;;:29;;;;262:2;;;;;;;;;;;248:16;;:10;:16;;;235:29;232:135;;;285:3;280:2;;:8;;;;;;;;;;;;;;;;;;309:4;302:11;;;;232:135;351:5;344:12;;130:243;;;;:::o",
+  "sourceMap": "279:310:4:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "279:310:4:-;;;;;;;;;;;;;;;;;;;;;;;;130:243:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;187:4;218:3;211;:10;;;;203:19;;;;;;;;241:3;235:2;;;;;;;;;;;:9;;;:29;;;;262:2;;;;;;;;;;;248:16;;:10;:16;;;235:29;232:135;;;285:3;280:2;;:8;;;;;;;;;;;;;;;;;;309:4;302:11;;;;232:135;351:5;344:12;;130:243;;;;:::o",
   "source": "/* A contract which has to check with ActionLimiter before performing certain actions. */\n\npragma solidity ^0.4.17;\n\n\nimport './WithActions.sol';\nimport './ContractProviderEnabled.sol';\n\nimport './interfaces/IActivityLimiter.sol';\nimport './interfaces/IContractProvider.sol';\n\n\n\ncontract Limited is WithActions, ContractProviderEnabled {\n\n    modifier performs(NetworkActivity activity) {\n        \n        address activityLimiterAddr = IContractProvider(cp).contracts(\"activity_limiter\");\n        IActivityLimiter(activityLimiterAddr).performAction(activity);\n\n        _;\n        \n    }\n\n}\n",
   "sourcePath": "/home/user/ofn-engine/contracts/Limited.sol",
   "ast": {
@@ -32,7 +32,7 @@
       "absolutePath": "/home/user/ofn-engine/contracts/Limited.sol",
       "exportedSymbols": {
         "Limited": [
-          2694
+          1818
         ]
       }
     },
@@ -46,86 +46,86 @@
             ".17"
           ]
         },
-        "id": 2663,
+        "id": 1787,
         "name": "PragmaDirective",
-        "src": "91:24:7"
+        "src": "91:24:4"
       },
       {
         "attributes": {
-          "SourceUnit": 3831,
+          "SourceUnit": 2005,
           "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
           "file": "./WithActions.sol",
-          "scope": 2695,
+          "scope": 1819,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 2664,
+        "id": 1788,
         "name": "ImportDirective",
-        "src": "118:27:7"
+        "src": "118:27:4"
       },
       {
         "attributes": {
-          "SourceUnit": 1692,
+          "SourceUnit": 1405,
           "absolutePath": "/home/user/ofn-engine/contracts/ContractProviderEnabled.sol",
           "file": "./ContractProviderEnabled.sol",
-          "scope": 2695,
+          "scope": 1819,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 2665,
+        "id": 1789,
         "name": "ImportDirective",
-        "src": "146:39:7"
+        "src": "146:39:4"
       },
       {
         "attributes": {
-          "SourceUnit": 3850,
+          "SourceUnit": 2024,
           "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
           "file": "./interfaces/IActivityLimiter.sol",
-          "scope": 2695,
+          "scope": 1819,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 2666,
+        "id": 1790,
         "name": "ImportDirective",
-        "src": "187:43:7"
+        "src": "187:43:4"
       },
       {
         "attributes": {
-          "SourceUnit": 3976,
+          "SourceUnit": 2150,
           "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IContractProvider.sol",
           "file": "./interfaces/IContractProvider.sol",
-          "scope": 2695,
+          "scope": 1819,
           "symbolAliases": [
             null
           ],
           "unitAlias": ""
         },
-        "id": 2667,
+        "id": 1791,
         "name": "ImportDirective",
-        "src": "231:44:7"
+        "src": "231:44:4"
       },
       {
         "attributes": {
           "contractDependencies": [
-            1691,
-            3830
+            1404,
+            2004
           ],
           "contractKind": "contract",
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            2694,
-            1691,
-            3830
+            1818,
+            1404,
+            2004
           ],
           "name": "Limited",
-          "scope": 2695
+          "scope": 1819
         },
         "children": [
           {
@@ -139,17 +139,17 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "WithActions",
-                  "referencedDeclaration": 3830,
+                  "referencedDeclaration": 2004,
                   "type": "contract WithActions"
                 },
-                "id": 2668,
+                "id": 1792,
                 "name": "UserDefinedTypeName",
-                "src": "299:11:7"
+                "src": "299:11:4"
               }
             ],
-            "id": 2669,
+            "id": 1793,
             "name": "InheritanceSpecifier",
-            "src": "299:11:7"
+            "src": "299:11:4"
           },
           {
             "attributes": {
@@ -162,17 +162,17 @@
                 "attributes": {
                   "contractScope": null,
                   "name": "ContractProviderEnabled",
-                  "referencedDeclaration": 1691,
+                  "referencedDeclaration": 1404,
                   "type": "contract ContractProviderEnabled"
                 },
-                "id": 2670,
+                "id": 1794,
                 "name": "UserDefinedTypeName",
-                "src": "312:23:7"
+                "src": "312:23:4"
               }
             ],
-            "id": 2671,
+            "id": 1795,
             "name": "InheritanceSpecifier",
-            "src": "312:23:7"
+            "src": "312:23:4"
           },
           {
             "attributes": {
@@ -186,7 +186,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "activity",
-                      "scope": 2693,
+                      "scope": 1817,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "enum WithActions.NetworkActivity",
@@ -198,29 +198,29 @@
                         "attributes": {
                           "contractScope": null,
                           "name": "NetworkActivity",
-                          "referencedDeclaration": 3829,
+                          "referencedDeclaration": 2003,
                           "type": "enum WithActions.NetworkActivity"
                         },
-                        "id": 2672,
+                        "id": 1796,
                         "name": "UserDefinedTypeName",
-                        "src": "361:15:7"
+                        "src": "361:15:4"
                       }
                     ],
-                    "id": 2673,
+                    "id": 1797,
                     "name": "VariableDeclaration",
-                    "src": "361:24:7"
+                    "src": "361:24:4"
                   }
                 ],
-                "id": 2674,
+                "id": 1798,
                 "name": "ParameterList",
-                "src": "360:26:7"
+                "src": "360:26:4"
               },
               {
                 "children": [
                   {
                     "attributes": {
                       "assignments": [
-                        2676
+                        1800
                       ]
                     },
                     "children": [
@@ -228,7 +228,7 @@
                         "attributes": {
                           "constant": false,
                           "name": "activityLimiterAddr",
-                          "scope": 2693,
+                          "scope": 1817,
                           "stateVariable": false,
                           "storageLocation": "default",
                           "type": "address",
@@ -241,14 +241,14 @@
                               "name": "address",
                               "type": "address"
                             },
-                            "id": 2675,
+                            "id": 1799,
                             "name": "ElementaryTypeName",
-                            "src": "406:7:7"
+                            "src": "406:7:4"
                           }
                         ],
-                        "id": 2676,
+                        "id": 1800,
                         "name": "VariableDeclaration",
-                        "src": "406:27:7"
+                        "src": "406:27:4"
                       },
                       {
                         "attributes": {
@@ -278,7 +278,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "contracts",
-                              "referencedDeclaration": 3967,
+                              "referencedDeclaration": 2141,
                               "type": "function (bytes32) view external returns (address)"
                             },
                             "children": [
@@ -308,13 +308,13 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 3975,
+                                      "referencedDeclaration": 2149,
                                       "type": "type(contract IContractProvider)",
                                       "value": "IContractProvider"
                                     },
-                                    "id": 2677,
+                                    "id": 1801,
                                     "name": "Identifier",
-                                    "src": "436:17:7"
+                                    "src": "436:17:4"
                                   },
                                   {
                                     "attributes": {
@@ -322,23 +322,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 1657,
+                                      "referencedDeclaration": 1370,
                                       "type": "address",
                                       "value": "cp"
                                     },
-                                    "id": 2678,
+                                    "id": 1802,
                                     "name": "Identifier",
-                                    "src": "454:2:7"
+                                    "src": "454:2:4"
                                   }
                                 ],
-                                "id": 2679,
+                                "id": 1803,
                                 "name": "FunctionCall",
-                                "src": "436:21:7"
+                                "src": "436:21:4"
                               }
                             ],
-                            "id": 2680,
+                            "id": 1804,
                             "name": "MemberAccess",
-                            "src": "436:31:7"
+                            "src": "436:31:4"
                           },
                           {
                             "attributes": {
@@ -353,19 +353,19 @@
                               "type": "literal_string \"activity_limiter\"",
                               "value": "activity_limiter"
                             },
-                            "id": 2681,
+                            "id": 1805,
                             "name": "Literal",
-                            "src": "468:18:7"
+                            "src": "468:18:4"
                           }
                         ],
-                        "id": 2682,
+                        "id": 1806,
                         "name": "FunctionCall",
-                        "src": "436:51:7"
+                        "src": "436:51:4"
                       }
                     ],
-                    "id": 2683,
+                    "id": 1807,
                     "name": "VariableDeclarationStatement",
-                    "src": "406:81:7"
+                    "src": "406:81:4"
                   },
                   {
                     "children": [
@@ -388,7 +388,7 @@
                             "attributes": {
                               "argumentTypes": [
                                 {
-                                  "typeIdentifier": "t_enum$_NetworkActivity_$3829",
+                                  "typeIdentifier": "t_enum$_NetworkActivity_$2003",
                                   "typeString": "enum WithActions.NetworkActivity"
                                 }
                               ],
@@ -397,7 +397,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "member_name": "performAction",
-                              "referencedDeclaration": 3848,
+                              "referencedDeclaration": 2022,
                               "type": "function (enum WithActions.NetworkActivity) external"
                             },
                             "children": [
@@ -427,13 +427,13 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 3849,
+                                      "referencedDeclaration": 2023,
                                       "type": "type(contract IActivityLimiter)",
                                       "value": "IActivityLimiter"
                                     },
-                                    "id": 2684,
+                                    "id": 1808,
                                     "name": "Identifier",
-                                    "src": "497:16:7"
+                                    "src": "497:16:4"
                                   },
                                   {
                                     "attributes": {
@@ -441,23 +441,23 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 2676,
+                                      "referencedDeclaration": 1800,
                                       "type": "address",
                                       "value": "activityLimiterAddr"
                                     },
-                                    "id": 2685,
+                                    "id": 1809,
                                     "name": "Identifier",
-                                    "src": "514:19:7"
+                                    "src": "514:19:4"
                                   }
                                 ],
-                                "id": 2686,
+                                "id": 1810,
                                 "name": "FunctionCall",
-                                "src": "497:37:7"
+                                "src": "497:37:4"
                               }
                             ],
-                            "id": 2687,
+                            "id": 1811,
                             "name": "MemberAccess",
-                            "src": "497:51:7"
+                            "src": "497:51:4"
                           },
                           {
                             "attributes": {
@@ -465,48 +465,48 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 2673,
+                              "referencedDeclaration": 1797,
                               "type": "enum WithActions.NetworkActivity",
                               "value": "activity"
                             },
-                            "id": 2688,
+                            "id": 1812,
                             "name": "Identifier",
-                            "src": "549:8:7"
+                            "src": "549:8:4"
                           }
                         ],
-                        "id": 2689,
+                        "id": 1813,
                         "name": "FunctionCall",
-                        "src": "497:61:7"
+                        "src": "497:61:4"
                       }
                     ],
-                    "id": 2690,
+                    "id": 1814,
                     "name": "ExpressionStatement",
-                    "src": "497:61:7"
+                    "src": "497:61:4"
                   },
                   {
-                    "id": 2691,
+                    "id": 1815,
                     "name": "PlaceholderStatement",
-                    "src": "569:1:7"
+                    "src": "569:1:4"
                   }
                 ],
-                "id": 2692,
+                "id": 1816,
                 "name": "Block",
-                "src": "387:199:7"
+                "src": "387:199:4"
               }
             ],
-            "id": 2693,
+            "id": 1817,
             "name": "ModifierDefinition",
-            "src": "343:243:7"
+            "src": "343:243:4"
           }
         ],
-        "id": 2694,
+        "id": 1818,
         "name": "ContractDefinition",
-        "src": "279:310:7"
+        "src": "279:310:4"
       }
     ],
-    "id": 2695,
+    "id": 1819,
     "name": "SourceUnit",
-    "src": "91:499:7"
+    "src": "91:499:4"
   },
   "compiler": {
     "name": "solc",
@@ -514,5 +514,5 @@
   },
   "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-19T23:47:32.799Z"
+  "updatedAt": "2018-02-23T21:15:20.156Z"
 }
