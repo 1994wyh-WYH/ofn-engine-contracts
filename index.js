@@ -20,3 +20,6 @@ module.exports.SafeMath = require('./artifacts/SafeMath.json');
 module.exports.Settlement = require('./artifacts/Settlement.json');
 module.exports.WithActions = require('./artifacts/WithActions.json');
 module.exports.WithTokenBalance = require('./artifacts/WithTokenBalance.json');
+
+module.exports.summary = require('./data/summary.json');
+module.exports.addresses = require('./data/addresses.json');
