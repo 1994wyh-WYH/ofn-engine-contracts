@@ -23,165 +23,272 @@
   "source": "/* Interface for the ActivityLimiter */\n\npragma solidity ^0.4.17;\n\n\nimport '../WithActions.sol';\n\ncontract IActivityLimiter is WithActions {\n\n    function performAction(NetworkActivity activity) public;\n\n}\n",
   "sourcePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
   "ast": {
-    "attributes": {
-      "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
-      "exportedSymbols": {
-        "IActivityLimiter": [
-          2023
-        ]
-      }
+    "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
+    "exportedSymbols": {
+      "IActivityLimiter": [
+        3883
+      ]
     },
-    "children": [
+    "id": 3884,
+    "nodeType": "SourceUnit",
+    "nodes": [
       {
-        "attributes": {
-          "literals": [
-            "solidity",
-            "^",
-            "0.4",
-            ".17"
-          ]
-        },
-        "id": 2014,
-        "name": "PragmaDirective",
-        "src": "41:24:8"
+        "id": 3874,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "41:24:14"
       },
       {
-        "attributes": {
-          "SourceUnit": 2005,
-          "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
-          "file": "../WithActions.sol",
-          "scope": 2024,
-          "symbolAliases": [
-            null
-          ],
-          "unitAlias": ""
-        },
-        "id": 2015,
-        "name": "ImportDirective",
-        "src": "68:28:8"
+        "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
+        "file": "../WithActions.sol",
+        "id": 3875,
+        "nodeType": "ImportDirective",
+        "scope": 3884,
+        "sourceUnit": 3865,
+        "src": "68:28:14",
+        "symbolAliases": [],
+        "unitAlias": ""
       },
       {
-        "attributes": {
-          "contractDependencies": [
-            2004
-          ],
-          "contractKind": "contract",
-          "documentation": null,
-          "fullyImplemented": false,
-          "linearizedBaseContracts": [
-            2023,
-            2004
-          ],
-          "name": "IActivityLimiter",
-          "scope": 2024
-        },
-        "children": [
+        "baseContracts": [
           {
-            "attributes": {
-              "arguments": [
-                null
-              ]
-            },
-            "children": [
-              {
-                "attributes": {
-                  "contractScope": null,
-                  "name": "WithActions",
-                  "referencedDeclaration": 2004,
-                  "type": "contract WithActions"
-                },
-                "id": 2016,
-                "name": "UserDefinedTypeName",
-                "src": "127:11:8"
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 3876,
+              "name": "WithActions",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 3864,
+              "src": "127:11:14",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_WithActions_$3864",
+                "typeString": "contract WithActions"
               }
-            ],
-            "id": 2017,
-            "name": "InheritanceSpecifier",
-            "src": "127:11:8"
-          },
-          {
-            "attributes": {
-              "body": null,
-              "constant": false,
-              "implemented": false,
-              "isConstructor": false,
-              "modifiers": [
-                null
-              ],
-              "name": "performAction",
-              "payable": false,
-              "scope": 2023,
-              "stateMutability": "nonpayable",
-              "superFunction": null,
-              "visibility": "public"
             },
-            "children": [
-              {
-                "children": [
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "activity",
-                      "scope": 2022,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "enum WithActions.NetworkActivity",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "contractScope": null,
-                          "name": "NetworkActivity",
-                          "referencedDeclaration": 2003,
-                          "type": "enum WithActions.NetworkActivity"
-                        },
-                        "id": 2018,
-                        "name": "UserDefinedTypeName",
-                        "src": "169:15:8"
-                      }
-                    ],
-                    "id": 2019,
-                    "name": "VariableDeclaration",
-                    "src": "169:24:8"
-                  }
-                ],
-                "id": 2020,
-                "name": "ParameterList",
-                "src": "168:26:8"
-              },
-              {
-                "attributes": {
-                  "parameters": [
-                    null
-                  ]
-                },
-                "children": [],
-                "id": 2021,
-                "name": "ParameterList",
-                "src": "201:0:8"
-              }
-            ],
-            "id": 2022,
-            "name": "FunctionDefinition",
-            "src": "146:56:8"
+            "id": 3877,
+            "nodeType": "InheritanceSpecifier",
+            "src": "127:11:14"
           }
         ],
-        "id": 2023,
-        "name": "ContractDefinition",
-        "src": "98:107:8"
+        "contractDependencies": [
+          3864
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 3883,
+        "linearizedBaseContracts": [
+          3883,
+          3864
+        ],
+        "name": "IActivityLimiter",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "id": 3882,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "performAction",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3880,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3879,
+                  "name": "activity",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3882,
+                  "src": "169:24:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                    "typeString": "enum WithActions.NetworkActivity"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 3878,
+                    "name": "NetworkActivity",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 3863,
+                    "src": "169:15:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                      "typeString": "enum WithActions.NetworkActivity"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "168:26:14"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3881,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "201:0:14"
+            },
+            "scope": 3883,
+            "src": "146:56:14",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 3884,
+        "src": "98:107:14"
       }
     ],
-    "id": 2024,
-    "name": "SourceUnit",
-    "src": "41:165:8"
+    "src": "41:165:14"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
+    "exportedSymbols": {
+      "IActivityLimiter": [
+        3883
+      ]
+    },
+    "id": 3884,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3874,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "41:24:14"
+      },
+      {
+        "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
+        "file": "../WithActions.sol",
+        "id": 3875,
+        "nodeType": "ImportDirective",
+        "scope": 3884,
+        "sourceUnit": 3865,
+        "src": "68:28:14",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 3876,
+              "name": "WithActions",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 3864,
+              "src": "127:11:14",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_WithActions_$3864",
+                "typeString": "contract WithActions"
+              }
+            },
+            "id": 3877,
+            "nodeType": "InheritanceSpecifier",
+            "src": "127:11:14"
+          }
+        ],
+        "contractDependencies": [
+          3864
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 3883,
+        "linearizedBaseContracts": [
+          3883,
+          3864
+        ],
+        "name": "IActivityLimiter",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "id": 3882,
+            "implemented": false,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "performAction",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 3880,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 3879,
+                  "name": "activity",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 3882,
+                  "src": "169:24:14",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                    "typeString": "enum WithActions.NetworkActivity"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 3878,
+                    "name": "NetworkActivity",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 3863,
+                    "src": "169:15:14",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                      "typeString": "enum WithActions.NetworkActivity"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "168:26:14"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 3881,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "201:0:14"
+            },
+            "scope": 3883,
+            "src": "146:56:14",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 3884,
+        "src": "98:107:14"
+      }
+    ],
+    "src": "41:165:14"
   },
   "compiler": {
     "name": "solc",
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-23T21:15:20.162Z"
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-03-01T22:11:38.063Z"
 }

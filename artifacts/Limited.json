@@ -23,496 +23,873 @@
   ],
   "bytecode": "0x6060604052341561000f57600080fd5b6101d48061001e6000396000f300606060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680639f577c1514610046575b600080fd5b341561005157600080fd5b61007d600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610097565b604051808215151515815260200191505060405180910390f35b6000808273ffffffffffffffffffffffffffffffffffffffff16141515156100be57600080fd5b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16148061015057506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b1561019e57816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190506101a3565b600090505b9190505600a165627a7a723058200bf46493e95118ca4ce5de0f86b81b4fab41c96f1db146f252cd77abd2a9a43d0029",
   "deployedBytecode": "0x606060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680639f577c1514610046575b600080fd5b341561005157600080fd5b61007d600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610097565b604051808215151515815260200191505060405180910390f35b6000808273ffffffffffffffffffffffffffffffffffffffff16141515156100be57600080fd5b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16148061015057506000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16145b1561019e57816000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550600190506101a3565b600090505b9190505600a165627a7a723058200bf46493e95118ca4ce5de0f86b81b4fab41c96f1db146f252cd77abd2a9a43d0029",
-  "sourceMap": "279:310:4:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "279:310:4:-;;;;;;;;;;;;;;;;;;;;;;;;130:243:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;187:4;218:3;211;:10;;;;203:19;;;;;;;;241:3;235:2;;;;;;;;;;;:9;;;:29;;;;262:2;;;;;;;;;;;248:16;;:10;:16;;;235:29;232:135;;;285:3;280:2;;:8;;;;;;;;;;;;;;;;;;309:4;302:11;;;;232:135;351:5;344:12;;130:243;;;;:::o",
+  "sourceMap": "279:310:8:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "279:310:8:-;;;;;;;;;;;;;;;;;;;;;;;;130:243:4;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;187:4;218:3;211;:10;;;;203:19;;;;;;;;241:3;235:2;;;;;;;;;;;:9;;;:29;;;;262:2;;;;;;;;;;;248:16;;:10;:16;;;235:29;232:135;;;285:3;280:2;;:8;;;;;;;;;;;;;;;;;;309:4;302:11;;;;232:135;351:5;344:12;;130:243;;;;:::o",
   "source": "/* A contract which has to check with ActionLimiter before performing certain actions. */\n\npragma solidity ^0.4.17;\n\n\nimport './WithActions.sol';\nimport './ContractProviderEnabled.sol';\n\nimport './interfaces/IActivityLimiter.sol';\nimport './interfaces/IContractProvider.sol';\n\n\n\ncontract Limited is WithActions, ContractProviderEnabled {\n\n    modifier performs(NetworkActivity activity) {\n        \n        address activityLimiterAddr = IContractProvider(cp).contracts(\"activity_limiter\");\n        IActivityLimiter(activityLimiterAddr).performAction(activity);\n\n        _;\n        \n    }\n\n}\n",
   "sourcePath": "/home/user/ofn-engine/contracts/Limited.sol",
   "ast": {
-    "attributes": {
-      "absolutePath": "/home/user/ofn-engine/contracts/Limited.sol",
-      "exportedSymbols": {
-        "Limited": [
-          1818
-        ]
-      }
+    "absolutePath": "/home/user/ofn-engine/contracts/Limited.sol",
+    "exportedSymbols": {
+      "Limited": [
+        2728
+      ]
     },
-    "children": [
+    "id": 2729,
+    "nodeType": "SourceUnit",
+    "nodes": [
       {
-        "attributes": {
-          "literals": [
-            "solidity",
-            "^",
-            "0.4",
-            ".17"
-          ]
-        },
-        "id": 1787,
-        "name": "PragmaDirective",
-        "src": "91:24:4"
+        "id": 2697,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "91:24:8"
       },
       {
-        "attributes": {
-          "SourceUnit": 2005,
-          "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
-          "file": "./WithActions.sol",
-          "scope": 1819,
-          "symbolAliases": [
-            null
-          ],
-          "unitAlias": ""
-        },
-        "id": 1788,
-        "name": "ImportDirective",
-        "src": "118:27:4"
+        "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
+        "file": "./WithActions.sol",
+        "id": 2698,
+        "nodeType": "ImportDirective",
+        "scope": 2729,
+        "sourceUnit": 3865,
+        "src": "118:27:8",
+        "symbolAliases": [],
+        "unitAlias": ""
       },
       {
-        "attributes": {
-          "SourceUnit": 1405,
-          "absolutePath": "/home/user/ofn-engine/contracts/ContractProviderEnabled.sol",
-          "file": "./ContractProviderEnabled.sol",
-          "scope": 1819,
-          "symbolAliases": [
-            null
-          ],
-          "unitAlias": ""
-        },
-        "id": 1789,
-        "name": "ImportDirective",
-        "src": "146:39:4"
+        "absolutePath": "/home/user/ofn-engine/contracts/ContractProviderEnabled.sol",
+        "file": "./ContractProviderEnabled.sol",
+        "id": 2699,
+        "nodeType": "ImportDirective",
+        "scope": 2729,
+        "sourceUnit": 1702,
+        "src": "146:39:8",
+        "symbolAliases": [],
+        "unitAlias": ""
       },
       {
-        "attributes": {
-          "SourceUnit": 2024,
-          "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
-          "file": "./interfaces/IActivityLimiter.sol",
-          "scope": 1819,
-          "symbolAliases": [
-            null
-          ],
-          "unitAlias": ""
-        },
-        "id": 1790,
-        "name": "ImportDirective",
-        "src": "187:43:4"
+        "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
+        "file": "./interfaces/IActivityLimiter.sol",
+        "id": 2700,
+        "nodeType": "ImportDirective",
+        "scope": 2729,
+        "sourceUnit": 3884,
+        "src": "187:43:8",
+        "symbolAliases": [],
+        "unitAlias": ""
       },
       {
-        "attributes": {
-          "SourceUnit": 2150,
-          "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IContractProvider.sol",
-          "file": "./interfaces/IContractProvider.sol",
-          "scope": 1819,
-          "symbolAliases": [
-            null
-          ],
-          "unitAlias": ""
-        },
-        "id": 1791,
-        "name": "ImportDirective",
-        "src": "231:44:4"
+        "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IContractProvider.sol",
+        "file": "./interfaces/IContractProvider.sol",
+        "id": 2701,
+        "nodeType": "ImportDirective",
+        "scope": 2729,
+        "sourceUnit": 4010,
+        "src": "231:44:8",
+        "symbolAliases": [],
+        "unitAlias": ""
       },
       {
-        "attributes": {
-          "contractDependencies": [
-            1404,
-            2004
-          ],
-          "contractKind": "contract",
-          "documentation": null,
-          "fullyImplemented": true,
-          "linearizedBaseContracts": [
-            1818,
-            1404,
-            2004
-          ],
-          "name": "Limited",
-          "scope": 1819
-        },
-        "children": [
+        "baseContracts": [
           {
-            "attributes": {
-              "arguments": [
-                null
-              ]
-            },
-            "children": [
-              {
-                "attributes": {
-                  "contractScope": null,
-                  "name": "WithActions",
-                  "referencedDeclaration": 2004,
-                  "type": "contract WithActions"
-                },
-                "id": 1792,
-                "name": "UserDefinedTypeName",
-                "src": "299:11:4"
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 2702,
+              "name": "WithActions",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 3864,
+              "src": "299:11:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_WithActions_$3864",
+                "typeString": "contract WithActions"
               }
-            ],
-            "id": 1793,
-            "name": "InheritanceSpecifier",
-            "src": "299:11:4"
+            },
+            "id": 2703,
+            "nodeType": "InheritanceSpecifier",
+            "src": "299:11:8"
           },
           {
-            "attributes": {
-              "arguments": [
-                null
-              ]
-            },
-            "children": [
-              {
-                "attributes": {
-                  "contractScope": null,
-                  "name": "ContractProviderEnabled",
-                  "referencedDeclaration": 1404,
-                  "type": "contract ContractProviderEnabled"
-                },
-                "id": 1794,
-                "name": "UserDefinedTypeName",
-                "src": "312:23:4"
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 2704,
+              "name": "ContractProviderEnabled",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 1701,
+              "src": "312:23:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ContractProviderEnabled_$1701",
+                "typeString": "contract ContractProviderEnabled"
               }
-            ],
-            "id": 1795,
-            "name": "InheritanceSpecifier",
-            "src": "312:23:4"
-          },
-          {
-            "attributes": {
-              "name": "performs",
-              "visibility": "internal"
             },
-            "children": [
-              {
-                "children": [
-                  {
-                    "attributes": {
-                      "constant": false,
-                      "name": "activity",
-                      "scope": 1817,
-                      "stateVariable": false,
-                      "storageLocation": "default",
-                      "type": "enum WithActions.NetworkActivity",
-                      "value": null,
-                      "visibility": "internal"
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "contractScope": null,
-                          "name": "NetworkActivity",
-                          "referencedDeclaration": 2003,
-                          "type": "enum WithActions.NetworkActivity"
-                        },
-                        "id": 1796,
-                        "name": "UserDefinedTypeName",
-                        "src": "361:15:4"
-                      }
-                    ],
-                    "id": 1797,
-                    "name": "VariableDeclaration",
-                    "src": "361:24:4"
-                  }
-                ],
-                "id": 1798,
-                "name": "ParameterList",
-                "src": "360:26:4"
-              },
-              {
-                "children": [
-                  {
-                    "attributes": {
-                      "assignments": [
-                        1800
-                      ]
-                    },
-                    "children": [
-                      {
-                        "attributes": {
-                          "constant": false,
-                          "name": "activityLimiterAddr",
-                          "scope": 1817,
-                          "stateVariable": false,
-                          "storageLocation": "default",
-                          "type": "address",
-                          "value": null,
-                          "visibility": "internal"
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "name": "address",
-                              "type": "address"
-                            },
-                            "id": 1799,
-                            "name": "ElementaryTypeName",
-                            "src": "406:7:4"
-                          }
-                        ],
-                        "id": 1800,
-                        "name": "VariableDeclaration",
-                        "src": "406:27:4"
-                      },
-                      {
-                        "attributes": {
-                          "argumentTypes": null,
-                          "isConstant": false,
-                          "isLValue": false,
-                          "isPure": false,
-                          "isStructConstructorCall": false,
-                          "lValueRequested": false,
-                          "names": [
-                            null
-                          ],
-                          "type": "address",
-                          "type_conversion": false
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "argumentTypes": [
-                                {
-                                  "typeIdentifier": "t_stringliteral_398cf97b6ec63f68435ef538047e885b2bdd62afe00e979e16d7476870dc670c",
-                                  "typeString": "literal_string \"activity_limiter\""
-                                }
-                              ],
-                              "isConstant": false,
-                              "isLValue": false,
-                              "isPure": false,
-                              "lValueRequested": false,
-                              "member_name": "contracts",
-                              "referencedDeclaration": 2141,
-                              "type": "function (bytes32) view external returns (address)"
-                            },
-                            "children": [
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "isConstant": false,
-                                  "isLValue": false,
-                                  "isPure": false,
-                                  "isStructConstructorCall": false,
-                                  "lValueRequested": false,
-                                  "names": [
-                                    null
-                                  ],
-                                  "type": "contract IContractProvider",
-                                  "type_conversion": true
-                                },
-                                "children": [
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": [
-                                        {
-                                          "typeIdentifier": "t_address",
-                                          "typeString": "address"
-                                        }
-                                      ],
-                                      "overloadedDeclarations": [
-                                        null
-                                      ],
-                                      "referencedDeclaration": 2149,
-                                      "type": "type(contract IContractProvider)",
-                                      "value": "IContractProvider"
-                                    },
-                                    "id": 1801,
-                                    "name": "Identifier",
-                                    "src": "436:17:4"
-                                  },
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": null,
-                                      "overloadedDeclarations": [
-                                        null
-                                      ],
-                                      "referencedDeclaration": 1370,
-                                      "type": "address",
-                                      "value": "cp"
-                                    },
-                                    "id": 1802,
-                                    "name": "Identifier",
-                                    "src": "454:2:4"
-                                  }
-                                ],
-                                "id": 1803,
-                                "name": "FunctionCall",
-                                "src": "436:21:4"
-                              }
-                            ],
-                            "id": 1804,
-                            "name": "MemberAccess",
-                            "src": "436:31:4"
-                          },
-                          {
-                            "attributes": {
-                              "argumentTypes": null,
-                              "hexvalue": "61637469766974795f6c696d69746572",
-                              "isConstant": false,
-                              "isLValue": false,
-                              "isPure": true,
-                              "lValueRequested": false,
-                              "subdenomination": null,
-                              "token": "string",
-                              "type": "literal_string \"activity_limiter\"",
-                              "value": "activity_limiter"
-                            },
-                            "id": 1805,
-                            "name": "Literal",
-                            "src": "468:18:4"
-                          }
-                        ],
-                        "id": 1806,
-                        "name": "FunctionCall",
-                        "src": "436:51:4"
-                      }
-                    ],
-                    "id": 1807,
-                    "name": "VariableDeclarationStatement",
-                    "src": "406:81:4"
-                  },
-                  {
-                    "children": [
-                      {
-                        "attributes": {
-                          "argumentTypes": null,
-                          "isConstant": false,
-                          "isLValue": false,
-                          "isPure": false,
-                          "isStructConstructorCall": false,
-                          "lValueRequested": false,
-                          "names": [
-                            null
-                          ],
-                          "type": "tuple()",
-                          "type_conversion": false
-                        },
-                        "children": [
-                          {
-                            "attributes": {
-                              "argumentTypes": [
-                                {
-                                  "typeIdentifier": "t_enum$_NetworkActivity_$2003",
-                                  "typeString": "enum WithActions.NetworkActivity"
-                                }
-                              ],
-                              "isConstant": false,
-                              "isLValue": false,
-                              "isPure": false,
-                              "lValueRequested": false,
-                              "member_name": "performAction",
-                              "referencedDeclaration": 2022,
-                              "type": "function (enum WithActions.NetworkActivity) external"
-                            },
-                            "children": [
-                              {
-                                "attributes": {
-                                  "argumentTypes": null,
-                                  "isConstant": false,
-                                  "isLValue": false,
-                                  "isPure": false,
-                                  "isStructConstructorCall": false,
-                                  "lValueRequested": false,
-                                  "names": [
-                                    null
-                                  ],
-                                  "type": "contract IActivityLimiter",
-                                  "type_conversion": true
-                                },
-                                "children": [
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": [
-                                        {
-                                          "typeIdentifier": "t_address",
-                                          "typeString": "address"
-                                        }
-                                      ],
-                                      "overloadedDeclarations": [
-                                        null
-                                      ],
-                                      "referencedDeclaration": 2023,
-                                      "type": "type(contract IActivityLimiter)",
-                                      "value": "IActivityLimiter"
-                                    },
-                                    "id": 1808,
-                                    "name": "Identifier",
-                                    "src": "497:16:4"
-                                  },
-                                  {
-                                    "attributes": {
-                                      "argumentTypes": null,
-                                      "overloadedDeclarations": [
-                                        null
-                                      ],
-                                      "referencedDeclaration": 1800,
-                                      "type": "address",
-                                      "value": "activityLimiterAddr"
-                                    },
-                                    "id": 1809,
-                                    "name": "Identifier",
-                                    "src": "514:19:4"
-                                  }
-                                ],
-                                "id": 1810,
-                                "name": "FunctionCall",
-                                "src": "497:37:4"
-                              }
-                            ],
-                            "id": 1811,
-                            "name": "MemberAccess",
-                            "src": "497:51:4"
-                          },
-                          {
-                            "attributes": {
-                              "argumentTypes": null,
-                              "overloadedDeclarations": [
-                                null
-                              ],
-                              "referencedDeclaration": 1797,
-                              "type": "enum WithActions.NetworkActivity",
-                              "value": "activity"
-                            },
-                            "id": 1812,
-                            "name": "Identifier",
-                            "src": "549:8:4"
-                          }
-                        ],
-                        "id": 1813,
-                        "name": "FunctionCall",
-                        "src": "497:61:4"
-                      }
-                    ],
-                    "id": 1814,
-                    "name": "ExpressionStatement",
-                    "src": "497:61:4"
-                  },
-                  {
-                    "id": 1815,
-                    "name": "PlaceholderStatement",
-                    "src": "569:1:4"
-                  }
-                ],
-                "id": 1816,
-                "name": "Block",
-                "src": "387:199:4"
-              }
-            ],
-            "id": 1817,
-            "name": "ModifierDefinition",
-            "src": "343:243:4"
+            "id": 2705,
+            "nodeType": "InheritanceSpecifier",
+            "src": "312:23:8"
           }
         ],
-        "id": 1818,
-        "name": "ContractDefinition",
-        "src": "279:310:4"
+        "contractDependencies": [
+          1701,
+          3864
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2728,
+        "linearizedBaseContracts": [
+          2728,
+          1701,
+          3864
+        ],
+        "name": "Limited",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 2726,
+              "nodeType": "Block",
+              "src": "387:199:8",
+              "statements": [
+                {
+                  "assignments": [
+                    2710
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 2710,
+                      "name": "activityLimiterAddr",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 2727,
+                      "src": "406:27:8",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "typeName": {
+                        "id": 2709,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "406:7:8",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 2717,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "61637469766974795f6c696d69746572",
+                        "id": 2715,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "468:18:8",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_398cf97b6ec63f68435ef538047e885b2bdd62afe00e979e16d7476870dc670c",
+                          "typeString": "literal_string \"activity_limiter\""
+                        },
+                        "value": "activity_limiter"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_398cf97b6ec63f68435ef538047e885b2bdd62afe00e979e16d7476870dc670c",
+                          "typeString": "literal_string \"activity_limiter\""
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 2712,
+                            "name": "cp",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 1667,
+                            "src": "454:2:8",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 2711,
+                          "name": "IContractProvider",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 4009,
+                          "src": "436:17:8",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_IContractProvider_$4009_$",
+                            "typeString": "type(contract IContractProvider)"
+                          }
+                        },
+                        "id": 2713,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "436:21:8",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IContractProvider_$4009",
+                          "typeString": "contract IContractProvider"
+                        }
+                      },
+                      "id": 2714,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "contracts",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 4001,
+                      "src": "436:31:8",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_bytes32_$returns$_t_address_$",
+                        "typeString": "function (bytes32) view external returns (address)"
+                      }
+                    },
+                    "id": 2716,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "436:51:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "406:81:8"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 2722,
+                        "name": "activity",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2707,
+                        "src": "549:8:8",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                          "typeString": "enum WithActions.NetworkActivity"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                          "typeString": "enum WithActions.NetworkActivity"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 2719,
+                            "name": "activityLimiterAddr",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 2710,
+                            "src": "514:19:8",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 2718,
+                          "name": "IActivityLimiter",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 3883,
+                          "src": "497:16:8",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_IActivityLimiter_$3883_$",
+                            "typeString": "type(contract IActivityLimiter)"
+                          }
+                        },
+                        "id": 2720,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "497:37:8",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IActivityLimiter_$3883",
+                          "typeString": "contract IActivityLimiter"
+                        }
+                      },
+                      "id": 2721,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "performAction",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3882,
+                      "src": "497:51:8",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_enum$_NetworkActivity_$3863_$returns$__$",
+                        "typeString": "function (enum WithActions.NetworkActivity) external"
+                      }
+                    },
+                    "id": 2723,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "497:61:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2724,
+                  "nodeType": "ExpressionStatement",
+                  "src": "497:61:8"
+                },
+                {
+                  "id": 2725,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "569:1:8"
+                }
+              ]
+            },
+            "id": 2727,
+            "name": "performs",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 2708,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2707,
+                  "name": "activity",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2727,
+                  "src": "361:24:8",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                    "typeString": "enum WithActions.NetworkActivity"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 2706,
+                    "name": "NetworkActivity",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 3863,
+                    "src": "361:15:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                      "typeString": "enum WithActions.NetworkActivity"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "360:26:8"
+            },
+            "src": "343:243:8",
+            "visibility": "internal"
+          }
+        ],
+        "scope": 2729,
+        "src": "279:310:8"
       }
     ],
-    "id": 1819,
-    "name": "SourceUnit",
-    "src": "91:499:4"
+    "src": "91:499:8"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/user/ofn-engine/contracts/Limited.sol",
+    "exportedSymbols": {
+      "Limited": [
+        2728
+      ]
+    },
+    "id": 2729,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2697,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "91:24:8"
+      },
+      {
+        "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
+        "file": "./WithActions.sol",
+        "id": 2698,
+        "nodeType": "ImportDirective",
+        "scope": 2729,
+        "sourceUnit": 3865,
+        "src": "118:27:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/user/ofn-engine/contracts/ContractProviderEnabled.sol",
+        "file": "./ContractProviderEnabled.sol",
+        "id": 2699,
+        "nodeType": "ImportDirective",
+        "scope": 2729,
+        "sourceUnit": 1702,
+        "src": "146:39:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IActivityLimiter.sol",
+        "file": "./interfaces/IActivityLimiter.sol",
+        "id": 2700,
+        "nodeType": "ImportDirective",
+        "scope": 2729,
+        "sourceUnit": 3884,
+        "src": "187:43:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "/home/user/ofn-engine/contracts/interfaces/IContractProvider.sol",
+        "file": "./interfaces/IContractProvider.sol",
+        "id": 2701,
+        "nodeType": "ImportDirective",
+        "scope": 2729,
+        "sourceUnit": 4010,
+        "src": "231:44:8",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 2702,
+              "name": "WithActions",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 3864,
+              "src": "299:11:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_WithActions_$3864",
+                "typeString": "contract WithActions"
+              }
+            },
+            "id": 2703,
+            "nodeType": "InheritanceSpecifier",
+            "src": "299:11:8"
+          },
+          {
+            "arguments": [],
+            "baseName": {
+              "contractScope": null,
+              "id": 2704,
+              "name": "ContractProviderEnabled",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 1701,
+              "src": "312:23:8",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_ContractProviderEnabled_$1701",
+                "typeString": "contract ContractProviderEnabled"
+              }
+            },
+            "id": 2705,
+            "nodeType": "InheritanceSpecifier",
+            "src": "312:23:8"
+          }
+        ],
+        "contractDependencies": [
+          1701,
+          3864
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2728,
+        "linearizedBaseContracts": [
+          2728,
+          1701,
+          3864
+        ],
+        "name": "Limited",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 2726,
+              "nodeType": "Block",
+              "src": "387:199:8",
+              "statements": [
+                {
+                  "assignments": [
+                    2710
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 2710,
+                      "name": "activityLimiterAddr",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 2727,
+                      "src": "406:27:8",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      },
+                      "typeName": {
+                        "id": 2709,
+                        "name": "address",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "406:7:8",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 2717,
+                  "initialValue": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "61637469766974795f6c696d69746572",
+                        "id": 2715,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "468:18:8",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_398cf97b6ec63f68435ef538047e885b2bdd62afe00e979e16d7476870dc670c",
+                          "typeString": "literal_string \"activity_limiter\""
+                        },
+                        "value": "activity_limiter"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_398cf97b6ec63f68435ef538047e885b2bdd62afe00e979e16d7476870dc670c",
+                          "typeString": "literal_string \"activity_limiter\""
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 2712,
+                            "name": "cp",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 1667,
+                            "src": "454:2:8",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 2711,
+                          "name": "IContractProvider",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 4009,
+                          "src": "436:17:8",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_IContractProvider_$4009_$",
+                            "typeString": "type(contract IContractProvider)"
+                          }
+                        },
+                        "id": 2713,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "436:21:8",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IContractProvider_$4009",
+                          "typeString": "contract IContractProvider"
+                        }
+                      },
+                      "id": 2714,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "contracts",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 4001,
+                      "src": "436:31:8",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_view$_t_bytes32_$returns$_t_address_$",
+                        "typeString": "function (bytes32) view external returns (address)"
+                      }
+                    },
+                    "id": 2716,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "436:51:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "406:81:8"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 2722,
+                        "name": "activity",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 2707,
+                        "src": "549:8:8",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                          "typeString": "enum WithActions.NetworkActivity"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                          "typeString": "enum WithActions.NetworkActivity"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": null,
+                        "arguments": [
+                          {
+                            "argumentTypes": null,
+                            "id": 2719,
+                            "name": "activityLimiterAddr",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 2710,
+                            "src": "514:19:8",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          }
+                        ],
+                        "expression": {
+                          "argumentTypes": [
+                            {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          ],
+                          "id": 2718,
+                          "name": "IActivityLimiter",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 3883,
+                          "src": "497:16:8",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_type$_t_contract$_IActivityLimiter_$3883_$",
+                            "typeString": "type(contract IActivityLimiter)"
+                          }
+                        },
+                        "id": 2720,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "kind": "typeConversion",
+                        "lValueRequested": false,
+                        "names": [],
+                        "nodeType": "FunctionCall",
+                        "src": "497:37:8",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_IActivityLimiter_$3883",
+                          "typeString": "contract IActivityLimiter"
+                        }
+                      },
+                      "id": 2721,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "performAction",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 3882,
+                      "src": "497:51:8",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_external_nonpayable$_t_enum$_NetworkActivity_$3863_$returns$__$",
+                        "typeString": "function (enum WithActions.NetworkActivity) external"
+                      }
+                    },
+                    "id": 2723,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "497:61:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 2724,
+                  "nodeType": "ExpressionStatement",
+                  "src": "497:61:8"
+                },
+                {
+                  "id": 2725,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "569:1:8"
+                }
+              ]
+            },
+            "id": 2727,
+            "name": "performs",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 2708,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 2707,
+                  "name": "activity",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 2727,
+                  "src": "361:24:8",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                    "typeString": "enum WithActions.NetworkActivity"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 2706,
+                    "name": "NetworkActivity",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 3863,
+                    "src": "361:15:8",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_NetworkActivity_$3863",
+                      "typeString": "enum WithActions.NetworkActivity"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "360:26:8"
+            },
+            "src": "343:243:8",
+            "visibility": "internal"
+          }
+        ],
+        "scope": 2729,
+        "src": "279:310:8"
+      }
+    ],
+    "src": "91:499:8"
   },
   "compiler": {
     "name": "solc",
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-23T21:15:20.156Z"
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-03-01T22:11:38.059Z"
 }

@@ -3,149 +3,223 @@
   "abi": [],
   "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820ecce2c5dad82e931163408e24f41a6f81a31087de2dff14cbb441e063276d8b40029",
   "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820ecce2c5dad82e931163408e24f41a6f81a31087de2dff14cbb441e063276d8b40029",
-  "sourceMap": "104:361:6:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "104:361:6:-;;;;;",
+  "sourceMap": "104:361:12:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "104:361:12:-;;;;;",
   "source": "/* Inherit from this to become aware of the OFN actions and their weights */\n\npragma solidity ^0.4.17;\n\ncontract WithActions {\n\n    // The various types of things network users can do, broadly\n    enum NetworkActivity {\n        AddAsset,\n        UpdateAsset,\n        ManageShareholder,\n        RegisterEntity,\n        ModifyEntity,\n        InitiateTransaction,\n        ReverseTransaction,\n        ApproveTransaction,\n        ApproveTransactionAsParticipant\n    }\n\n}\n",
   "sourcePath": "/home/user/ofn-engine/contracts/WithActions.sol",
   "ast": {
-    "attributes": {
-      "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
-      "exportedSymbols": {
-        "WithActions": [
-          2004
-        ]
-      }
+    "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
+    "exportedSymbols": {
+      "WithActions": [
+        3864
+      ]
     },
-    "children": [
+    "id": 3865,
+    "nodeType": "SourceUnit",
+    "nodes": [
       {
-        "attributes": {
-          "literals": [
-            "solidity",
-            "^",
-            "0.4",
-            ".17"
-          ]
-        },
-        "id": 1993,
-        "name": "PragmaDirective",
-        "src": "78:24:6"
+        "id": 3853,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "78:24:12"
       },
       {
-        "attributes": {
-          "baseContracts": [
-            null
-          ],
-          "contractDependencies": [
-            null
-          ],
-          "contractKind": "contract",
-          "documentation": null,
-          "fullyImplemented": true,
-          "linearizedBaseContracts": [
-            2004
-          ],
-          "name": "WithActions",
-          "scope": 2005
-        },
-        "children": [
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 3864,
+        "linearizedBaseContracts": [
+          3864
+        ],
+        "name": "WithActions",
+        "nodeType": "ContractDefinition",
+        "nodes": [
           {
-            "attributes": {
-              "canonicalName": "WithActions.NetworkActivity",
-              "name": "NetworkActivity"
-            },
-            "children": [
+            "canonicalName": "WithActions.NetworkActivity",
+            "id": 3863,
+            "members": [
               {
-                "attributes": {
-                  "name": "AddAsset"
-                },
-                "id": 1994,
-                "name": "EnumValue",
-                "src": "228:8:6"
+                "id": 3854,
+                "name": "AddAsset",
+                "nodeType": "EnumValue",
+                "src": "228:8:12"
               },
               {
-                "attributes": {
-                  "name": "UpdateAsset"
-                },
-                "id": 1995,
-                "name": "EnumValue",
-                "src": "246:11:6"
+                "id": 3855,
+                "name": "UpdateAsset",
+                "nodeType": "EnumValue",
+                "src": "246:11:12"
               },
               {
-                "attributes": {
-                  "name": "ManageShareholder"
-                },
-                "id": 1996,
-                "name": "EnumValue",
-                "src": "267:17:6"
+                "id": 3856,
+                "name": "ManageShareholder",
+                "nodeType": "EnumValue",
+                "src": "267:17:12"
               },
               {
-                "attributes": {
-                  "name": "RegisterEntity"
-                },
-                "id": 1997,
-                "name": "EnumValue",
-                "src": "294:14:6"
+                "id": 3857,
+                "name": "RegisterEntity",
+                "nodeType": "EnumValue",
+                "src": "294:14:12"
               },
               {
-                "attributes": {
-                  "name": "ModifyEntity"
-                },
-                "id": 1998,
-                "name": "EnumValue",
-                "src": "318:12:6"
+                "id": 3858,
+                "name": "ModifyEntity",
+                "nodeType": "EnumValue",
+                "src": "318:12:12"
               },
               {
-                "attributes": {
-                  "name": "InitiateTransaction"
-                },
-                "id": 1999,
-                "name": "EnumValue",
-                "src": "340:19:6"
+                "id": 3859,
+                "name": "InitiateTransaction",
+                "nodeType": "EnumValue",
+                "src": "340:19:12"
               },
               {
-                "attributes": {
-                  "name": "ReverseTransaction"
-                },
-                "id": 2000,
-                "name": "EnumValue",
-                "src": "369:18:6"
+                "id": 3860,
+                "name": "ReverseTransaction",
+                "nodeType": "EnumValue",
+                "src": "369:18:12"
               },
               {
-                "attributes": {
-                  "name": "ApproveTransaction"
-                },
-                "id": 2001,
-                "name": "EnumValue",
-                "src": "397:18:6"
+                "id": 3861,
+                "name": "ApproveTransaction",
+                "nodeType": "EnumValue",
+                "src": "397:18:12"
               },
               {
-                "attributes": {
-                  "name": "ApproveTransactionAsParticipant"
-                },
-                "id": 2002,
-                "name": "EnumValue",
-                "src": "425:31:6"
+                "id": 3862,
+                "name": "ApproveTransactionAsParticipant",
+                "nodeType": "EnumValue",
+                "src": "425:31:12"
               }
             ],
-            "id": 2003,
-            "name": "EnumDefinition",
-            "src": "197:265:6"
+            "name": "NetworkActivity",
+            "nodeType": "EnumDefinition",
+            "src": "197:265:12"
           }
         ],
-        "id": 2004,
-        "name": "ContractDefinition",
-        "src": "104:361:6"
+        "scope": 3865,
+        "src": "104:361:12"
       }
     ],
-    "id": 2005,
-    "name": "SourceUnit",
-    "src": "78:388:6"
+    "src": "78:388:12"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/user/ofn-engine/contracts/WithActions.sol",
+    "exportedSymbols": {
+      "WithActions": [
+        3864
+      ]
+    },
+    "id": 3865,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3853,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "78:24:12"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 3864,
+        "linearizedBaseContracts": [
+          3864
+        ],
+        "name": "WithActions",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "WithActions.NetworkActivity",
+            "id": 3863,
+            "members": [
+              {
+                "id": 3854,
+                "name": "AddAsset",
+                "nodeType": "EnumValue",
+                "src": "228:8:12"
+              },
+              {
+                "id": 3855,
+                "name": "UpdateAsset",
+                "nodeType": "EnumValue",
+                "src": "246:11:12"
+              },
+              {
+                "id": 3856,
+                "name": "ManageShareholder",
+                "nodeType": "EnumValue",
+                "src": "267:17:12"
+              },
+              {
+                "id": 3857,
+                "name": "RegisterEntity",
+                "nodeType": "EnumValue",
+                "src": "294:14:12"
+              },
+              {
+                "id": 3858,
+                "name": "ModifyEntity",
+                "nodeType": "EnumValue",
+                "src": "318:12:12"
+              },
+              {
+                "id": 3859,
+                "name": "InitiateTransaction",
+                "nodeType": "EnumValue",
+                "src": "340:19:12"
+              },
+              {
+                "id": 3860,
+                "name": "ReverseTransaction",
+                "nodeType": "EnumValue",
+                "src": "369:18:12"
+              },
+              {
+                "id": 3861,
+                "name": "ApproveTransaction",
+                "nodeType": "EnumValue",
+                "src": "397:18:12"
+              },
+              {
+                "id": 3862,
+                "name": "ApproveTransactionAsParticipant",
+                "nodeType": "EnumValue",
+                "src": "425:31:12"
+              }
+            ],
+            "name": "NetworkActivity",
+            "nodeType": "EnumDefinition",
+            "src": "197:265:12"
+          }
+        ],
+        "scope": 3865,
+        "src": "104:361:12"
+      }
+    ],
+    "src": "78:388:12"
   },
   "compiler": {
     "name": "solc",
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-23T21:15:20.162Z"
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-03-01T22:11:38.063Z"
 }

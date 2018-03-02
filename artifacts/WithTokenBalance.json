@@ -3,131 +3,223 @@
   "abi": [],
   "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820365299022f4d0aa7a3a403e1b1940f342c48b631fd4aaf1ac711b4cecd6a42ab0029",
   "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820365299022f4d0aa7a3a403e1b1940f342c48b631fd4aaf1ac711b4cecd6a42ab0029",
-  "sourceMap": "76:169:7:-;;;;;;;;;;;;;;;;;",
-  "deployedSourceMap": "76:169:7:-;;;;;",
+  "sourceMap": "76:169:13:-;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "76:169:13:-;;;;;",
   "source": "/* Add a token balance struct to a contract */\n\n\npragma solidity ^0.4.17;\n\n\ncontract WithTokenBalance {\n\n  // Token balances are dynamic and must include a query time\n  struct TokenBalance {\n      uint256 balance;\n      uint256 queryTime;\n  }\n\n}\n",
   "sourcePath": "/home/user/ofn-engine/contracts/WithTokenBalance.sol",
   "ast": {
-    "attributes": {
-      "absolutePath": "/home/user/ofn-engine/contracts/WithTokenBalance.sol",
-      "exportedSymbols": {
-        "WithTokenBalance": [
-          2012
-        ]
-      }
+    "absolutePath": "/home/user/ofn-engine/contracts/WithTokenBalance.sol",
+    "exportedSymbols": {
+      "WithTokenBalance": [
+        3872
+      ]
     },
-    "children": [
+    "id": 3873,
+    "nodeType": "SourceUnit",
+    "nodes": [
       {
-        "attributes": {
-          "literals": [
-            "solidity",
-            "^",
-            "0.4",
-            ".17"
-          ]
-        },
-        "id": 2006,
-        "name": "PragmaDirective",
-        "src": "49:24:7"
+        "id": 3866,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "49:24:13"
       },
       {
-        "attributes": {
-          "baseContracts": [
-            null
-          ],
-          "contractDependencies": [
-            null
-          ],
-          "contractKind": "contract",
-          "documentation": null,
-          "fullyImplemented": true,
-          "linearizedBaseContracts": [
-            2012
-          ],
-          "name": "WithTokenBalance",
-          "scope": 2013
-        },
-        "children": [
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 3872,
+        "linearizedBaseContracts": [
+          3872
+        ],
+        "name": "WithTokenBalance",
+        "nodeType": "ContractDefinition",
+        "nodes": [
           {
-            "attributes": {
-              "canonicalName": "WithTokenBalance.TokenBalance",
-              "name": "TokenBalance",
-              "scope": 2012,
-              "visibility": "public"
-            },
-            "children": [
+            "canonicalName": "WithTokenBalance.TokenBalance",
+            "id": 3871,
+            "members": [
               {
-                "attributes": {
-                  "constant": false,
-                  "name": "balance",
-                  "scope": 2011,
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "type": "uint256",
-                  "value": null,
-                  "visibility": "internal"
+                "constant": false,
+                "id": 3868,
+                "name": "balance",
+                "nodeType": "VariableDeclaration",
+                "scope": 3871,
+                "src": "197:15:13",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
                 },
-                "children": [
-                  {
-                    "attributes": {
-                      "name": "uint256",
-                      "type": "uint256"
-                    },
-                    "id": 2007,
-                    "name": "ElementaryTypeName",
-                    "src": "197:7:7"
+                "typeName": {
+                  "id": 3867,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "197:7:13",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
                   }
-                ],
-                "id": 2008,
-                "name": "VariableDeclaration",
-                "src": "197:15:7"
+                },
+                "value": null,
+                "visibility": "internal"
               },
               {
-                "attributes": {
-                  "constant": false,
-                  "name": "queryTime",
-                  "scope": 2011,
-                  "stateVariable": false,
-                  "storageLocation": "default",
-                  "type": "uint256",
-                  "value": null,
-                  "visibility": "internal"
+                "constant": false,
+                "id": 3870,
+                "name": "queryTime",
+                "nodeType": "VariableDeclaration",
+                "scope": 3871,
+                "src": "220:17:13",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
                 },
-                "children": [
-                  {
-                    "attributes": {
-                      "name": "uint256",
-                      "type": "uint256"
-                    },
-                    "id": 2009,
-                    "name": "ElementaryTypeName",
-                    "src": "220:7:7"
+                "typeName": {
+                  "id": 3869,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "220:7:13",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
                   }
-                ],
-                "id": 2010,
-                "name": "VariableDeclaration",
-                "src": "220:17:7"
+                },
+                "value": null,
+                "visibility": "internal"
               }
             ],
-            "id": 2011,
-            "name": "StructDefinition",
-            "src": "169:73:7"
+            "name": "TokenBalance",
+            "nodeType": "StructDefinition",
+            "scope": 3872,
+            "src": "169:73:13",
+            "visibility": "public"
           }
         ],
-        "id": 2012,
-        "name": "ContractDefinition",
-        "src": "76:169:7"
+        "scope": 3873,
+        "src": "76:169:13"
       }
     ],
-    "id": 2013,
-    "name": "SourceUnit",
-    "src": "49:197:7"
+    "src": "49:197:13"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/user/ofn-engine/contracts/WithTokenBalance.sol",
+    "exportedSymbols": {
+      "WithTokenBalance": [
+        3872
+      ]
+    },
+    "id": 3873,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 3866,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "49:24:13"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 3872,
+        "linearizedBaseContracts": [
+          3872
+        ],
+        "name": "WithTokenBalance",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "WithTokenBalance.TokenBalance",
+            "id": 3871,
+            "members": [
+              {
+                "constant": false,
+                "id": 3868,
+                "name": "balance",
+                "nodeType": "VariableDeclaration",
+                "scope": 3871,
+                "src": "197:15:13",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 3867,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "197:7:13",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 3870,
+                "name": "queryTime",
+                "nodeType": "VariableDeclaration",
+                "scope": 3871,
+                "src": "220:17:13",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 3869,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "220:7:13",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "TokenBalance",
+            "nodeType": "StructDefinition",
+            "scope": 3872,
+            "src": "169:73:13",
+            "visibility": "public"
+          }
+        ],
+        "scope": 3873,
+        "src": "76:169:13"
+      }
+    ],
+    "src": "49:197:13"
   },
   "compiler": {
     "name": "solc",
     "version": "0.4.19+commit.c4cbbb05.Emscripten.clang"
   },
   "networks": {},
-  "schemaVersion": "1.0.1",
-  "updatedAt": "2018-02-23T21:15:20.162Z"
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-03-01T22:11:38.063Z"
 }
