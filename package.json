@@ -1,6 +1,6 @@
 {
   "name": "ofn-engine-contracts",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "description": "Compiled OFN contracts",
   "main": "index.js",
   "repository": "github.com/cfxmarkets/ofn-engine-contracts",
