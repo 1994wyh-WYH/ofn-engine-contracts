@@ -64,6 +64,7 @@ export interface Summary {
     entities: [number, number[]][];
     assets: number[][];
   };
+  etherbase: string;
   transactions: Transaction[];
   ofnToken: string;
 }
